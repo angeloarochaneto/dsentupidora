@@ -4,6 +4,9 @@ interface Service {
   desc: string;
   preco: string;
   img: string;
+  imgAlt: string;
+  imgWidth: number;
+  imgHeight: number;
 }
 interface Props {
   services: Service[];
@@ -20,7 +23,7 @@ const { services } = Astro.props;
     <div class="grid grid-4">
       {services.map((s) => (
         <div class="card service-card">
-          <img src={s.img} alt={s.nome} width="300" height="200" loading="lazy" class="service-img" />
+          <img src={s.img} alt={s.imgAlt} width={s.imgWidth} height={s.imgHeight} loading="lazy" decoding="async" class="service-img" />
           <h3>{s.nome}</h3>
           <p class="service-desc">{s.desc}</p>
           <span class="service-price">{s.preco ? s.preco : 'valor sob consulta'}</span>

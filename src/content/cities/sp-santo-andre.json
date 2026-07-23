@@ -29,25 +29,37 @@
       "nome": "Desentupimento de vaso sanitário",
       "desc": "Remoção de entupimentos em vasos sanitários residenciais e comerciais, sem quebra-quebra.",
       "preco": "a partir de R$ 130",
-      "img": "/images/servico-vaso-sanitario.jpg"
+      "img": "/images/servico-vaso-sanitario.webp",
+      "imgAlt": "Profissional desentupindo vaso sanitário com fio de aço flexível",
+      "imgWidth": 800,
+      "imgHeight": 447
     },
     {
       "nome": "Desentupimento de pia e ralo",
       "desc": "Solução rápida para pias de cozinha, banheiro e ralos de área de serviço.",
       "preco": "a partir de R$ 110",
-      "img": "/images/servico-pia-ralo.jpg"
+      "img": "/images/servico-pia-ralo.webp",
+      "imgAlt": "Técnico desentupindo pia de cozinha com mangueira flexível de desentupimento",
+      "imgWidth": 800,
+      "imgHeight": 447
     },
     {
       "nome": "Desentupimento de esgoto",
       "desc": "Localização e desobstrução de redes de esgoto residenciais com equipamento especializado.",
       "preco": "",
-      "img": "/images/servico-esgoto.jpg"
+      "img": "/images/servico-esgoto.jpg",
+      "imgAlt": "Desobstrução de rede de esgoto residencial com equipamento especializado",
+      "imgWidth": 600,
+      "imgHeight": 400
     },
     {
       "nome": "Limpeza de caixa de gordura",
       "desc": "Limpeza completa e higienização de caixas de gordura para evitar mau cheiro e refluxo.",
       "preco": "a partir de R$ 190",
-      "img": "/images/servico-caixa-gordura.jpg"
+      "img": "/images/servico-caixa-gordura.webp",
+      "imgAlt": "Limpeza e higienização de caixa de gordura em cozinha comercial",
+      "imgWidth": 800,
+      "imgHeight": 447
     }
   ],
   "differentials": [

@@ -43,6 +43,9 @@ const cities = defineCollection({
         desc: z.string(),
         preco: z.string(),
         img: z.string(),
+        imgAlt: z.string(),
+        imgWidth: z.number(),
+        imgHeight: z.number(),
       }),
     ),
     differentials: z
