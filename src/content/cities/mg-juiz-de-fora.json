@@ -1,0 +1,114 @@
+{
+  "city": "Juiz de Fora",
+  "uf": "MG",
+  "slugCity": "juiz-de-fora",
+  "slugUf": "mg",
+  "keyword": "desentupidora",
+  "brand": {
+    "name": "Desentupidora Juiz de Fora",
+    "logoUrl": "/images/logo-placeholder.svg"
+  },
+  "phone": {
+    "display": "",
+    "tel": ""
+  },
+  "whatsapp": {
+    "number": "",
+    "message": "Olá! Preciso de uma desentupidora em {{CIDADE}}."
+  },
+  "conversionMode": "leadster",
+  "leadsterEmbedId": "leadster-mg-juiz-de-fora-000",
+  "kpis": [
+    {
+      "num": "24h",
+      "lbl": "Plantão todos os dias"
+    },
+    {
+      "num": "Grátis",
+      "lbl": "Avaliação e orçamento sem compromisso"
+    },
+    {
+      "num": "100%",
+      "lbl": "Equipe com equipamento próprio"
+    },
+    {
+      "num": "Garantia",
+      "lbl": "Por escrito em todo serviço"
+    }
+  ],
+  "services": [
+    {
+      "nome": "Desentupimento de vaso sanitário",
+      "desc": "Remoção de entupimentos em vasos sanitários residenciais e comerciais, sem quebra-quebra.",
+      "preco": "",
+      "img": "/images/servico-vaso-sanitario.webp",
+      "imgAlt": "Profissional desentupindo vaso sanitário com fio de aço flexível",
+      "imgWidth": 800,
+      "imgHeight": 447
+    },
+    {
+      "nome": "Desentupimento de pia e ralo",
+      "desc": "Solução rápida para pias de cozinha, banheiro e ralos de área de serviço.",
+      "preco": "",
+      "img": "/images/servico-pia-ralo.webp",
+      "imgAlt": "Técnico desentupindo pia de cozinha com mangueira flexível de desentupimento",
+      "imgWidth": 800,
+      "imgHeight": 447
+    },
+    {
+      "nome": "Desentupimento de esgoto",
+      "desc": "Localização e desobstrução de redes de esgoto residenciais com equipamento especializado.",
+      "preco": "",
+      "img": "/images/servico-esgoto.webp",
+      "imgAlt": "Profissional desentupindo rede de esgoto residencial com máquina de limpeza em poço de visita",
+      "imgWidth": 800,
+      "imgHeight": 447
+    },
+    {
+      "nome": "Limpeza de caixa de gordura",
+      "desc": "Limpeza completa e higienização de caixas de gordura para evitar mau cheiro e refluxo.",
+      "preco": "",
+      "img": "/images/servico-caixa-gordura.webp",
+      "imgAlt": "Limpeza e higienização de caixa de gordura em cozinha comercial",
+      "imgWidth": 800,
+      "imgHeight": 447
+    }
+  ],
+  "differentials": [
+    {
+      "titulo": "Atendimento 24 horas",
+      "desc": "Plantão todos os dias da semana, inclusive feriados."
+    },
+    {
+      "titulo": "Orçamento sem compromisso",
+      "desc": "Avaliação no local antes de iniciar qualquer serviço."
+    },
+    {
+      "titulo": "Equipe própria",
+      "desc": "Profissionais treinados, sem terceirização aleatória."
+    },
+    {
+      "titulo": "Sem quebra-quebra",
+      "desc": "Equipamentos que preservam a tubulação e o acabamento do imóvel."
+    },
+    {
+      "titulo": "Garantia no serviço",
+      "desc": "Garantia por escrito em todos os desentupimentos realizados."
+    },
+    {
+      "titulo": "Pagamento facilitado",
+      "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
+    }
+  ],
+  "neighborhoods": [],
+  "testimonials": [],
+  "partner": {
+    "name": "Parceiro local em Juiz de Fora — em breve",
+    "address": "",
+    "mapEmbedUrl": ""
+  },
+  "heroImage": {
+    "url": "/images/hero-mg-juiz-de-fora.webp",
+    "alt": "Paisagem urbana genérica representando Juiz de Fora"
+  }
+}

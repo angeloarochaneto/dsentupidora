@@ -29,7 +29,9 @@ const { brandName, logoUrl, phoneDisplay, phoneTel, conversionMode, whatsappNumb
     </nav>
 
     <div class="header-actions">
-      <a href={`tel:${phoneTel}`} class="btn btn-outline-navy header-phone">{phoneDisplay}</a>
+      {phoneTel && (
+        <a href={`tel:${phoneTel}`} class="btn btn-outline-navy header-phone">{phoneDisplay}</a>
+      )}
       <a
         href="#"
         class="btn btn-primary"

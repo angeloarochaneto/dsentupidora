@@ -11,7 +11,9 @@ const { phoneTel, phoneDisplay, conversionMode, whatsappNumber, whatsappMessage,
 ---
 
 <div class="sticky-mobile-cta">
-  <a href={`tel:${phoneTel}`} class="btn btn-outline-navy sticky-phone">{phoneDisplay}</a>
+  {phoneTel && (
+    <a href={`tel:${phoneTel}`} class="btn btn-outline-navy sticky-phone">{phoneDisplay}</a>
+  )}
   <a
     href="#"
     class="btn btn-primary sticky-cta"

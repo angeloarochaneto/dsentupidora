@@ -27,7 +27,9 @@ const { city, phoneTel, phoneDisplay, conversionMode, whatsappNumber, whatsappMe
       >
         Chamar agora
       </a>
-      <a href={`tel:${phoneTel}`} class="btn btn-outline btn-large">Ligar · {phoneDisplay}</a>
+      {phoneTel && (
+        <a href={`tel:${phoneTel}`} class="btn btn-outline btn-large">Ligar · {phoneDisplay}</a>
+      )}
     </div>
   </div>
 </section>

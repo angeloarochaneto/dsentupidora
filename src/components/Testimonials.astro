@@ -10,23 +10,25 @@ interface Props {
 const { testimonials } = Astro.props;
 ---
 
-<section class="section" id="depoimentos">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Depoimentos</span>
-      <h2>Quem já chamou</h2>
+{testimonials.length > 0 && (
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Depoimentos</span>
+        <h2>Quem já chamou</h2>
+      </div>
+      <div class="grid grid-3">
+        {testimonials.map((t) => (
+          <div class="card testimonial-card">
+            <span class="stars">★★★★★</span>
+            <p>"{t.texto}"</p>
+            <span class="testimonial-author">{t.nome} · {t.bairro}</span>
+          </div>
+        ))}
+      </div>
     </div>
-    <div class="grid grid-3">
-      {testimonials.map((t) => (
-        <div class="card testimonial-card">
-          <span class="stars">★★★★★</span>
-          <p>"{t.texto}"</p>
-          <span class="testimonial-author">{t.nome} · {t.bairro}</span>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+  </section>
+)}
 
 <style>
   .testimonial-card {

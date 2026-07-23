@@ -82,7 +82,9 @@ const checks = ['Orçamento sem compromisso', 'Sem quebra-quebra', 'Equipe próp
         >
           Chamar agora
         </a>
-        <a href={`tel:${phoneTel}`} class="btn btn-outline btn-large">Ligar · {phoneDisplay}</a>
+        {phoneTel && (
+          <a href={`tel:${phoneTel}`} class="btn btn-outline btn-large">Ligar · {phoneDisplay}</a>
+        )}
       </div>
 
       <ul class="hero-checks">

@@ -48,9 +48,11 @@ const tips = [
       ))}
     </div>
 
-    <p class="urgency-note">
-      Precisa de {keyword} agora em {city}? Ligue {phoneDisplay} — o plantão está de prontidão.
-    </p>
+    {phoneDisplay && (
+      <p class="urgency-note">
+        Precisa de {keyword} agora em {city}? Ligue {phoneDisplay} — o plantão está de prontidão.
+      </p>
+    )}
   </div>
 </section>
 

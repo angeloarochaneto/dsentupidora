@@ -34,10 +34,13 @@ const year = new Date().getFullYear();
   <div class="container footer-grid">
     <div>
       <strong class="footer-brand">{partnerName}</strong>
-      <address>
-        {partnerAddress}<br />
-        <a href={`tel:${phoneDisplay.replace(/\D/g, '')}`}>{phoneDisplay}</a>
-      </address>
+      {(partnerAddress || phoneDisplay) && (
+        <address>
+          {partnerAddress}
+          {partnerAddress && phoneDisplay && <br />}
+          {phoneDisplay && <a href={`tel:${phoneDisplay.replace(/\D/g, '')}`}>{phoneDisplay}</a>}
+        </address>
+      )}
     </div>
 
     <div>

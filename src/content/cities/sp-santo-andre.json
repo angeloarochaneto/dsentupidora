@@ -19,10 +19,22 @@
   "conversionMode": "leadster",
   "leadsterEmbedId": "leadster-santo-andre-000",
   "kpis": [
-    { "num": "24h", "lbl": "Plantão todos os dias" },
-    { "num": "40 min", "lbl": "Chegada média na região central" },
-    { "num": "4,8", "lbl": "Avaliação média dos clientes" },
-    { "num": "+300", "lbl": "Atendimentos realizados" }
+    {
+      "num": "24h",
+      "lbl": "Plantão todos os dias"
+    },
+    {
+      "num": "40 min",
+      "lbl": "Chegada média na região central"
+    },
+    {
+      "num": "4,8",
+      "lbl": "Avaliação média dos clientes"
+    },
+    {
+      "num": "+300",
+      "lbl": "Atendimentos realizados"
+    }
   ],
   "services": [
     {
@@ -63,20 +75,56 @@
     }
   ],
   "differentials": [
-    { "titulo": "Atendimento 24 horas", "desc": "Plantão todos os dias da semana, inclusive feriados." },
-    { "titulo": "Orçamento sem compromisso", "desc": "Avaliação no local antes de iniciar qualquer serviço." },
-    { "titulo": "Equipe própria", "desc": "Profissionais treinados, sem terceirização aleatória." },
-    { "titulo": "Sem quebra-quebra", "desc": "Equipamentos que preservam a tubulação e o acabamento do imóvel." },
-    { "titulo": "Garantia no serviço", "desc": "Garantia por escrito em todos os desentupimentos realizados." },
-    { "titulo": "Pagamento facilitado", "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado." }
+    {
+      "titulo": "Atendimento 24 horas",
+      "desc": "Plantão todos os dias da semana, inclusive feriados."
+    },
+    {
+      "titulo": "Orçamento sem compromisso",
+      "desc": "Avaliação no local antes de iniciar qualquer serviço."
+    },
+    {
+      "titulo": "Equipe própria",
+      "desc": "Profissionais treinados, sem terceirização aleatória."
+    },
+    {
+      "titulo": "Sem quebra-quebra",
+      "desc": "Equipamentos que preservam a tubulação e o acabamento do imóvel."
+    },
+    {
+      "titulo": "Garantia no serviço",
+      "desc": "Garantia por escrito em todos os desentupimentos realizados."
+    },
+    {
+      "titulo": "Pagamento facilitado",
+      "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
+    }
   ],
   "neighborhoods": [
-    { "bairro": "Vila Assunção", "desc": "Atendimento residencial na Vila Assunção." },
-    { "bairro": "Jardim", "desc": "Cobertura no bairro Jardim." },
-    { "bairro": "Campestre", "desc": "Atendimento no Campestre e arredores." },
-    { "bairro": "Vila Guiomar", "desc": "Cobertura residencial e comercial na Vila Guiomar." },
-    { "bairro": "Utinga", "desc": "Atendimento no Utinga." },
-    { "bairro": "Casa Branca", "desc": "Cobertura residencial na Casa Branca." }
+    {
+      "bairro": "Vila Assunção",
+      "desc": "Atendimento residencial na Vila Assunção."
+    },
+    {
+      "bairro": "Jardim",
+      "desc": "Cobertura no bairro Jardim."
+    },
+    {
+      "bairro": "Campestre",
+      "desc": "Atendimento no Campestre e arredores."
+    },
+    {
+      "bairro": "Vila Guiomar",
+      "desc": "Cobertura residencial e comercial na Vila Guiomar."
+    },
+    {
+      "bairro": "Utinga",
+      "desc": "Atendimento no Utinga."
+    },
+    {
+      "bairro": "Casa Branca",
+      "desc": "Cobertura residencial na Casa Branca."
+    }
   ],
   "testimonials": [
     {
@@ -99,5 +147,9 @@
     "name": "Desentupidora Santo André Ltda",
     "address": "Avenida Industrial, 800 - Vila Assunção, Santo André - SP",
     "mapEmbedUrl": "https://www.google.com/maps?q=Avenida+Industrial,+800,+Santo+Andr%C3%A9+-+SP&output=embed"
+  },
+  "heroImage": {
+    "url": "/images/hero-sp-santo-andre.webp",
+    "alt": "Paisagem urbana genérica representando Santo André"
   }
 }

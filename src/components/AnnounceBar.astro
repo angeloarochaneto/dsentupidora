@@ -8,7 +8,7 @@ const { city, phoneDisplay } = Astro.props;
 
 <div class="announce-bar">
   <div class="container">
-    <span>⚡ ATENDIMENTO 24H · {city.toUpperCase()} E REGIÃO · {phoneDisplay}</span>
+    <span>⚡ ATENDIMENTO 24H · {city.toUpperCase()} E REGIÃO{phoneDisplay && ` · ${phoneDisplay}`}</span>
   </div>
 </div>
 

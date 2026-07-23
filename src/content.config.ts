@@ -56,14 +56,12 @@ const cities = defineCollection({
         }),
       )
       .length(6),
-    neighborhoods: z
-      .array(
-        z.object({
-          bairro: z.string(),
-          desc: z.string(),
-        }),
-      )
-      .min(5),
+    neighborhoods: z.array(
+      z.object({
+        bairro: z.string(),
+        desc: z.string(),
+      }),
+    ),
     testimonials: z.array(
       z.object({
         texto: z.string(),
