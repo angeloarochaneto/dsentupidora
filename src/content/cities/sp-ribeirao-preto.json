@@ -18,6 +18,10 @@
   },
   "conversionMode": "partner-whatsapp",
   "leadsterEmbedId": "leadster-ribeirao-preto-000",
+  "heroImage": {
+    "url": "/images/hero-ribeirao-preto.jpg",
+    "alt": "Vista aérea do centro de Ribeirão Preto ao entardecer"
+  },
   "kpis": [
     { "num": "24h", "lbl": "Plantão todos os dias" },
     { "num": "30 min", "lbl": "Chegada média na região central" },

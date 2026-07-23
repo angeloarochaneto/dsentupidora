@@ -23,6 +23,12 @@ const cities = defineCollection({
     }),
     conversionMode: z.enum(['leadster', 'partner-whatsapp']),
     leadsterEmbedId: z.string(),
+    heroImage: z
+      .object({
+        url: z.string(),
+        alt: z.string(),
+      })
+      .optional(),
     kpis: z
       .array(
         z.object({
