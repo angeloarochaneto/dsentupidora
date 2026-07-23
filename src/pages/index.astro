@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const cities = await getCollection('cities');
+---
+
+<Layout
+  title="Diretório de Desentupidoras | Encontre um parceiro na sua cidade"
+  description="Diretório local de desentupidoras 24h. Encontre um parceiro perto de você e chame agora, com orçamento sem compromisso."
+>
+  <header class="home-header">
+    <div class="container">
+      <strong>Diretório de Desentupidoras</strong>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Cidades atendidas</span>
+        <h1>Escolha sua cidade</h1>
+      </div>
+      <div class="grid grid-3">
+        {cities.map((entry) => (
+          <a href={`/${entry.data.slugUf}/${entry.data.slugCity}/`} class="card city-card">
+            <h3>{entry.data.city} · {entry.data.uf}</h3>
+            <p>{entry.data.keyword} 24h, orçamento sem compromisso.</p>
+            <span class="city-link">Ver página →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .home-header {
+    background: var(--navy);
+    color: #fff;
+    padding: 20px 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+  .city-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--ink);
+  }
+  .city-card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 6px;
+  }
+  .city-link {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--navy);
+  }
+</style>

@@ -1,0 +1,57 @@
+---
+interface Service {
+  nome: string;
+  desc: string;
+  preco: string;
+  img: string;
+}
+interface Props {
+  services: Service[];
+}
+const { services } = Astro.props;
+---
+
+<section class="section" id="servicos">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Serviços</span>
+      <h2>O que resolvemos pra você</h2>
+    </div>
+    <div class="grid grid-4">
+      {services.map((s) => (
+        <div class="card service-card">
+          <img src={s.img} alt={s.nome} width="300" height="200" loading="lazy" class="service-img" />
+          <h3>{s.nome}</h3>
+          <p class="service-desc">{s.desc}</p>
+          <span class="service-price">{s.preco ? s.preco : 'valor sob consulta'}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .service-img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .service-desc {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+  .service-price {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--amber-deep);
+    font-size: 0.9rem;
+  }
+</style>

@@ -1,0 +1,190 @@
+---
+import { capitalize } from '../lib/seo';
+
+interface Props {
+  mode: 'standard' | 'urgency' | 'bairro';
+  city: string;
+  bairro?: string;
+  keyword: string;
+  phoneTel: string;
+  phoneDisplay: string;
+  conversionMode: 'leadster' | 'partner-whatsapp';
+  whatsappNumber: string;
+  whatsappMessage: string;
+  leadsterEmbedId: string;
+  kpis: { num: string; lbl: string }[];
+}
+
+const {
+  mode,
+  city,
+  bairro,
+  keyword,
+  phoneTel,
+  phoneDisplay,
+  conversionMode,
+  whatsappNumber,
+  whatsappMessage,
+  leadsterEmbedId,
+  kpis,
+} = Astro.props;
+
+const kw = capitalize(keyword);
+
+let h1 = `Entupiu? A gente aciona um parceiro perto de você em ${city}.`;
+let lead = `Chame agora e um parceiro local especializado chega até você, com orçamento sem compromisso.`;
+
+if (mode === 'urgency') {
+  h1 = `${kw} 24h em ${city}: atendimento agora, dia e noite.`;
+  lead = `Problema não espera. Plantão todos os dias, inclusive fins de semana e feriados, em ${city}.`;
+} else if (mode === 'bairro' && bairro) {
+  h1 = `${kw} no ${bairro} de ${city}.`;
+  lead = `Atendimento local rápido no ${bairro}, com equipe que conhece a região.`;
+}
+
+const checks = ['Orçamento sem compromisso', 'Sem quebra-quebra', 'Equipe própria', 'Garantia por escrito'];
+---
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow">Plantão 24h</span>
+      <h1>{h1}</h1>
+      <p class="hero-lead">{lead}</p>
+
+      <div class="hero-ctas">
+        <a
+          href="#"
+          class="btn btn-primary btn-large"
+          data-cta-primary
+          data-conversion-mode={conversionMode}
+          data-whatsapp-number={whatsappNumber}
+          data-whatsapp-message={whatsappMessage}
+          data-leadster-embed-id={leadsterEmbedId}
+        >
+          Chamar agora
+        </a>
+        <a href={`tel:${phoneTel}`} class="btn btn-outline btn-large">Ligar · {phoneDisplay}</a>
+      </div>
+
+      <ul class="hero-checks">
+        {checks.map((c) => (
+          <li>✓ {c}</li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="hero-media">
+      <img src="/images/hero-placeholder.jpg" alt={`Equipe de ${keyword} atendendo em ${city}`} width="480" height="480" />
+      <div class="hero-badge">Chegada estimada: 30–40 min</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="kpi-strip">
+      {kpis.map((k) => (
+        <div class="kpi-item">
+          <span class="kpi-num">{k.num}</span>
+          <span class="kpi-lbl">{k.lbl}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: #fff;
+    padding: 56px 0 0;
+  }
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
+    align-items: center;
+    padding-bottom: 48px;
+  }
+  .hero h1 {
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    margin-bottom: 18px;
+  }
+  .hero-lead {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.05rem;
+    max-width: 480px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin: 24px 0;
+  }
+  .hero-checks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .hero-checks li {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  .hero-media {
+    position: relative;
+  }
+  .hero-media img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+  }
+  .hero-badge {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background: #fff;
+    color: var(--navy);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 10px 16px;
+    border-radius: 999px;
+    box-shadow: var(--shadow-md);
+  }
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 24px 0 32px;
+  }
+  .kpi-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .kpi-num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: var(--amber);
+  }
+  .kpi-lbl {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  @media (max-width: 900px) {
+    .hero-inner {
+      grid-template-columns: 1fr;
+    }
+    .kpi-strip {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

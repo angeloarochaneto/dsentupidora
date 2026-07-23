@@ -1,0 +1,146 @@
+---
+interface Service {
+  nome: string;
+}
+interface Area {
+  bairro: string;
+  slug: string;
+}
+interface Props {
+  partnerName: string;
+  partnerAddress: string;
+  mapEmbedUrl: string;
+  phoneDisplay: string;
+  services: Service[];
+  areas: Area[];
+  slugUf: string;
+  slugCity: string;
+  city: string;
+}
+
+const { partnerName, partnerAddress, mapEmbedUrl, phoneDisplay, services, areas, slugUf, slugCity, city } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  {mapEmbedUrl && (
+    <div class="map-embed">
+      <iframe
+        src={mapEmbedUrl}
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title={`Localização de ${partnerName}`}
+      ></iframe>
+    </div>
+  )}
+
+  <div class="container footer-grid">
+    <div>
+      <strong class="footer-brand">{partnerName}</strong>
+      <address>
+        {partnerAddress}<br />
+        <a href={`tel:${phoneDisplay.replace(/\D/g, '')}`}>{phoneDisplay}</a>
+      </address>
+    </div>
+
+    <div>
+      <p class="footer-col-title">Serviços</p>
+      <ul>
+        {services.map((s) => (
+          <li>{s.nome}</li>
+        ))}
+      </ul>
+    </div>
+
+    {areas.length > 0 && (
+      <div>
+        <p class="footer-col-title">Áreas em {city}</p>
+        <ul>
+          {areas.map((a) => (
+            <li><a href={`/${slugUf}/${slugCity}/${a.slug}/`}>{a.bairro}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© {year} {partnerName} · Todos os direitos reservados</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--navy);
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .map-embed {
+    width: 100%;
+    aspect-ratio: 16/5;
+  }
+  .map-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 32px;
+    padding: 48px 24px;
+  }
+  .footer-brand {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    color: #fff;
+  }
+  address {
+    font-style: normal;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    line-height: 1.7;
+  }
+  address a {
+    color: var(--amber);
+    font-weight: 700;
+  }
+  .footer-col-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 12px;
+  }
+  .footer-grid ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+  .footer-grid a {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .footer-grid a:hover {
+    color: var(--amber);
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 18px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  @media (max-width: 700px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

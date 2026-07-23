@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import AnnounceBar from '../../../components/AnnounceBar.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import Hero from '../../../components/Hero.astro';
+import Services from '../../../components/Services.astro';
+import Differentials from '../../../components/Differentials.astro';
+import Steps from '../../../components/Steps.astro';
+import Areas from '../../../components/Areas.astro';
+import Testimonials from '../../../components/Testimonials.astro';
+import FinalCTA from '../../../components/FinalCTA.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import StickyMobileCta from '../../../components/StickyMobileCta.astro';
+import { buildTitle, buildDescription, buildBreadcrumbSchema, buildPlumberSchema } from '../../../lib/seo';
+
+export async function getStaticPaths() {
+  const cities = await getCollection('cities');
+  return cities.map((entry) => ({
+    params: { uf: entry.data.slugUf, cidade: entry.data.slugCity },
+    props: { city: entry },
+  }));
+}
+
+const { city } = Astro.props;
+const data = city.data;
+
+const whatsappMessage = data.whatsapp.message.replace('{{CIDADE}}', data.city);
+
+const title = buildTitle(data.keyword, data.city, 'Atendimento 24h');
+const description = buildDescription(data.keyword, data.city, data.phone.display, `atendimento 24h com orçamento sem compromisso.`);
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const breadcrumb = buildBreadcrumbSchema([
+  { name: 'Início', url: new URL('/', Astro.site).toString() },
+  { name: data.uf, url: new URL(`/${data.slugUf}/`, Astro.site).toString() },
+  { name: data.city, url: pageUrl },
+]);
+const plumberSchema = buildPlumberSchema({
+  partnerName: data.partner.name,
+  phoneDisplay: data.phone.display,
+  address: data.partner.address,
+  city: data.city,
+  uf: data.uf,
+  url: pageUrl,
+});
+---
+
+<Layout title={title} description={description} schemas={[plumberSchema, breadcrumb]}>
+  <AnnounceBar city={data.city} phoneDisplay={data.phone.display} />
+  <SiteHeader
+    brandName={data.brand.name}
+    logoUrl={data.brand.logoUrl}
+    phoneDisplay={data.phone.display}
+    phoneTel={data.phone.tel}
+    conversionMode={data.conversionMode}
+    whatsappNumber={data.whatsapp.number}
+    whatsappMessage={whatsappMessage}
+    leadsterEmbedId={data.leadsterEmbedId}
+  />
+  <Hero
+    mode="standard"
+    city={data.city}
+    keyword={data.keyword}
+    phoneTel={data.phone.tel}
+    phoneDisplay={data.phone.display}
+    conversionMode={data.conversionMode}
+    whatsappNumber={data.whatsapp.number}
+    whatsappMessage={whatsappMessage}
+    leadsterEmbedId={data.leadsterEmbedId}
+    kpis={data.kpis}
+  />
+  <Services services={data.services} />
+  <Differentials differentials={data.differentials} />
+  <Steps keyword={data.keyword} />
+  <Areas areas={data.areas} slugUf={data.slugUf} slugCity={data.slugCity} />
+  <Testimonials testimonials={data.testimonials} />
+  <FinalCTA
+    city={data.city}
+    phoneTel={data.phone.tel}
+    phoneDisplay={data.phone.display}
+    conversionMode={data.conversionMode}
+    whatsappNumber={data.whatsapp.number}
+    whatsappMessage={whatsappMessage}
+    leadsterEmbedId={data.leadsterEmbedId}
+  />
+  <SiteFooter
+    partnerName={data.partner.name}
+    partnerAddress={data.partner.address}
+    mapEmbedUrl={data.partner.mapEmbedUrl}
+    phoneDisplay={data.phone.display}
+    services={data.services}
+    areas={data.areas}
+    slugUf={data.slugUf}
+    slugCity={data.slugCity}
+    city={data.city}
+  />
+  <StickyMobileCta
+    phoneTel={data.phone.tel}
+    phoneDisplay={data.phone.display}
+    conversionMode={data.conversionMode}
+    whatsappNumber={data.whatsapp.number}
+    whatsappMessage={whatsappMessage}
+    leadsterEmbedId={data.leadsterEmbedId}
+  />
+</Layout>

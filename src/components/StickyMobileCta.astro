@@ -1,0 +1,54 @@
+---
+interface Props {
+  phoneTel: string;
+  phoneDisplay: string;
+  conversionMode: 'leadster' | 'partner-whatsapp';
+  whatsappNumber: string;
+  whatsappMessage: string;
+  leadsterEmbedId: string;
+}
+const { phoneTel, phoneDisplay, conversionMode, whatsappNumber, whatsappMessage, leadsterEmbedId } = Astro.props;
+---
+
+<div class="sticky-mobile-cta">
+  <a href={`tel:${phoneTel}`} class="btn btn-outline-navy sticky-phone">{phoneDisplay}</a>
+  <a
+    href="#"
+    class="btn btn-primary sticky-cta"
+    data-cta-primary
+    data-conversion-mode={conversionMode}
+    data-whatsapp-number={whatsappNumber}
+    data-whatsapp-message={whatsappMessage}
+    data-leadster-embed-id={leadsterEmbedId}
+  >
+    Chamar agora
+  </a>
+</div>
+
+<style>
+  .sticky-mobile-cta {
+    display: none;
+  }
+  @media (max-width: 640px) {
+    .sticky-mobile-cta {
+      display: flex;
+      gap: 8px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      background: #fff;
+      border-top: 1px solid var(--line);
+      padding: 10px 12px;
+      box-shadow: 0 -4px 16px rgba(7, 27, 54, 0.12);
+    }
+    .sticky-phone,
+    .sticky-cta {
+      flex: 1;
+      padding: 12px 14px;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  }
+</style>

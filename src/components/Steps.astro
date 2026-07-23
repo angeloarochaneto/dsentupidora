@@ -1,0 +1,50 @@
+---
+interface Props {
+  keyword: string;
+}
+const { keyword } = Astro.props;
+
+const steps = [
+  { n: '01', titulo: 'Você chama', desc: `Ligue ou chame no WhatsApp explicando o problema de ${keyword}.` },
+  { n: '02', titulo: 'A gente aciona', desc: 'Um parceiro local especializado é acionado na hora.' },
+  { n: '03', titulo: 'Equipe chega', desc: 'Avaliação no local e orçamento sem compromisso antes de iniciar.' },
+  { n: '04', titulo: 'Problema resolvido', desc: 'Serviço executado com garantia por escrito.' },
+];
+---
+
+<section class="section" id="como-funciona">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Do chamado à solução</h2>
+    </div>
+    <div class="grid grid-4 steps-grid">
+      {steps.map((s) => (
+        <div class="step">
+          <span class="step-num">{s.n}</span>
+          <h3>{s.titulo}</h3>
+          <p>{s.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .step {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .step-num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--line);
+  }
+  .step p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: 0;
+  }
+</style>

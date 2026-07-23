@@ -1,0 +1,65 @@
+---
+interface Area {
+  bairro: string;
+  tempo: string;
+  slug: string;
+  desc: string;
+}
+interface Props {
+  areas: Area[];
+  slugUf: string;
+  slugCity: string;
+}
+const { areas, slugUf, slugCity } = Astro.props;
+---
+
+{areas.length > 0 && (
+  <section class="section section--panel" id="areas">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Áreas atendidas</span>
+        <h2>Onde a gente chega</h2>
+      </div>
+      <div class="grid grid-3">
+        {areas.map((a) => (
+          <a href={`/${slugUf}/${slugCity}/${a.slug}/`} class="card area-card">
+            <h3>{a.bairro}</h3>
+            <span class="area-time">Chegada média: {a.tempo}</span>
+            <p>{a.desc}</p>
+            <span class="area-link">Ver detalhes →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .area-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--ink);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .area-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .area-time {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--amber-deep);
+  }
+  .area-card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 6px;
+  }
+  .area-link {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--navy);
+  }
+</style>

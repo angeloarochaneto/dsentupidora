@@ -1,0 +1,53 @@
+---
+interface Differential {
+  titulo: string;
+  desc: string;
+}
+interface Props {
+  differentials: Differential[];
+}
+const { differentials } = Astro.props;
+---
+
+<section class="section section--panel">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Por que escolher</span>
+      <h2>Diferenciais no atendimento</h2>
+    </div>
+    <div class="grid grid-3">
+      {differentials.map((d) => (
+        <div class="card diff-card">
+          <span class="diff-icon">✓</span>
+          <h3>{d.titulo}</h3>
+          <p>{d.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .diff-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .diff-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(245, 166, 35, 0.15);
+    color: var(--amber-deep);
+    font-weight: 800;
+    margin-bottom: 6px;
+  }
+  .diff-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,54 @@
+---
+interface Testimonial {
+  texto: string;
+  nome: string;
+  bairro: string;
+}
+interface Props {
+  testimonials: Testimonial[];
+}
+const { testimonials } = Astro.props;
+---
+
+<section class="section" id="depoimentos">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Depoimentos</span>
+      <h2>Quem já chamou</h2>
+    </div>
+    <div class="grid grid-3">
+      {testimonials.map((t) => (
+        <div class="card testimonial-card">
+          <span class="stars">★★★★★</span>
+          <p>"{t.texto}"</p>
+          <span class="testimonial-author">{t.nome} · {t.bairro}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .stars {
+    color: var(--amber);
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+  }
+  .testimonial-card p {
+    color: var(--ink);
+    font-size: 0.95rem;
+    margin: 0;
+    font-style: italic;
+  }
+  .testimonial-author {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>

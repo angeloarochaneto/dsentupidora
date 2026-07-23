@@ -1,0 +1,103 @@
+---
+interface Props {
+  brandName: string;
+  logoUrl: string;
+  phoneDisplay: string;
+  phoneTel: string;
+  conversionMode: 'leadster' | 'partner-whatsapp';
+  whatsappNumber: string;
+  whatsappMessage: string;
+  leadsterEmbedId: string;
+}
+
+const { brandName, logoUrl, phoneDisplay, phoneTel, conversionMode, whatsappNumber, whatsappMessage, leadsterEmbedId } =
+  Astro.props;
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand">
+      <img src={logoUrl} alt={brandName} width="36" height="36" />
+      <span>{brandName}</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#areas">Áreas</a>
+      <a href="#depoimentos">Depoimentos</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href={`tel:${phoneTel}`} class="btn btn-outline-navy header-phone">{phoneDisplay}</a>
+      <a
+        href="#"
+        class="btn btn-primary"
+        data-cta-primary
+        data-conversion-mode={conversionMode}
+        data-whatsapp-number={whatsappNumber}
+        data-whatsapp-message={whatsappMessage}
+        data-leadster-embed-id={leadsterEmbedId}
+      >
+        Chamar agora
+      </a>
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 40;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 14px 24px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--navy);
+  }
+  .main-nav {
+    display: flex;
+    gap: 28px;
+  }
+  .main-nav a {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .main-nav a:hover {
+    color: var(--navy);
+  }
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header-phone {
+    padding: 10px 18px;
+    font-size: 0.88rem;
+  }
+  @media (max-width: 900px) {
+    .main-nav {
+      display: none;
+    }
+  }
+  @media (max-width: 640px) {
+    .header-phone {
+      display: none;
+    }
+  }
+</style>

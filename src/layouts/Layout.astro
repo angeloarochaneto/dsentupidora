@@ -1,0 +1,65 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  schemas?: object[];
+}
+
+const { title, description, schemas = [] } = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    />
+
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+  </head>
+  <body>
+    <slot />
+
+    <!-- COLE AQUI o script de embed do Leadster (antes do fechamento do </body>) -->
+
+    <script>
+      function initConversionButtons() {
+        document.querySelectorAll<HTMLElement>('[data-cta-primary]').forEach((btn) => {
+          btn.addEventListener('click', (e) => {
+            const mode = btn.dataset.conversionMode;
+
+            if (mode === 'leadster') {
+              e.preventDefault();
+              const leadster = (window as any).leadster;
+              if (leadster && typeof leadster.open === 'function') {
+                leadster.open();
+              } else {
+                console.warn('Leadster ainda não carregado. Embed id esperado:', btn.dataset.leadsterEmbedId);
+              }
+            } else if (mode === 'partner-whatsapp') {
+              e.preventDefault();
+              const number = btn.dataset.whatsappNumber;
+              const message = btn.dataset.whatsappMessage || '';
+              window.open(`https://wa.me/${number}?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+            }
+          });
+        });
+      }
+      initConversionButtons();
+    </script>
+  </body>
+</html>
