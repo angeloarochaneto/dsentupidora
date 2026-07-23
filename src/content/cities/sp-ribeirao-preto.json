@@ -76,6 +76,14 @@
       "desc": "Cobertura completa do bairro Ribeirânia, incluindo condomínios e casas."
     }
   ],
+  "otherNeighborhoods": [
+    "Jardim Sumaré",
+    "Jardim Botânico",
+    "Alto da Boa Vista",
+    "Jardim Irajá",
+    "Ribeirão Verde",
+    "Campos Elíseos"
+  ],
   "testimonials": [
     {
       "texto": "Vieram rápido e resolveram o entupimento da pia sem sujeira nenhuma. Recomendo.",

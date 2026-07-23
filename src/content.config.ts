@@ -61,6 +61,7 @@ const cities = defineCollection({
         desc: z.string(),
       }),
     ),
+    otherNeighborhoods: z.array(z.string()).optional(),
     testimonials: z.array(
       z.object({
         texto: z.string(),
