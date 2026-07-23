@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro Histórico",
+      "desc": "Atendimento residencial e comercial no bairro Centro Histórico."
+    },
+    {
+      "bairro": "Jardim Higienópolis",
+      "desc": "Cobertura completa do bairro Jardim Higienópolis."
+    },
+    {
+      "bairro": "Gleba Palhano",
+      "desc": "Atendimento rápido e eficiente no bairro Gleba Palhano."
+    },
+    {
+      "bairro": "Cafezal",
+      "desc": "Cobertura completa do bairro Cafezal."
+    },
+    {
+      "bairro": "Lindóia",
+      "desc": "Atendimento residencial e comercial no bairro Lindóia."
+    },
+    {
+      "bairro": "Ouro Verde",
+      "desc": "Cobertura completa do bairro Ouro Verde."
+    },
+    {
+      "bairro": "Vila Ipiranga",
+      "desc": "Atendimento rápido e eficiente no bairro Vila Ipiranga."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Londrina — em breve",

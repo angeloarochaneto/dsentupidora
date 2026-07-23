@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Caieiras",
+      "desc": "Cobertura completa do bairro Caieiras."
+    },
+    {
+      "bairro": "Célvia",
+      "desc": "Atendimento residencial e comercial no bairro Célvia."
+    },
+    {
+      "bairro": "Central Park",
+      "desc": "Cobertura completa do bairro Central Park."
+    },
+    {
+      "bairro": "De Lourdes",
+      "desc": "Atendimento residencial e comercial no bairro De Lourdes."
+    },
+    {
+      "bairro": "Serra Dourada",
+      "desc": "Cobertura completa do bairro Serra Dourada."
+    },
+    {
+      "bairro": "Jardim Alterosa",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Alterosa."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Vespasiano — em breve",

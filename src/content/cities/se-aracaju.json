@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Atalaia",
+      "desc": "Cobertura completa do bairro Atalaia."
+    },
+    {
+      "bairro": "Coroa do Meio",
+      "desc": "Serviço ágil e garantido no bairro Coroa do Meio."
+    },
+    {
+      "bairro": "Farolândia",
+      "desc": "Atendimento residencial e comercial no bairro Farolândia."
+    },
+    {
+      "bairro": "Grageru",
+      "desc": "Cobertura completa do bairro Grageru."
+    },
+    {
+      "bairro": "Getúlio Vargas",
+      "desc": "Atendimento rápido e especializado no bairro Getúlio Vargas."
+    },
+    {
+      "bairro": "América",
+      "desc": "Cobertura completa do bairro América."
+    },
+    {
+      "bairro": "Industrial",
+      "desc": "Atendimento residencial e comercial no bairro Industrial."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Aracaju — em breve",

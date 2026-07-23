@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cambuí",
+      "desc": "Cobertura completa do bairro Cambuí."
+    },
+    {
+      "bairro": "Taquaral",
+      "desc": "Serviço ágil e garantido no bairro Taquaral."
+    },
+    {
+      "bairro": "Barão Geraldo",
+      "desc": "Atendimento residencial e comercial no bairro Barão Geraldo."
+    },
+    {
+      "bairro": "Botafogo",
+      "desc": "Cobertura completa do bairro Botafogo."
+    },
+    {
+      "bairro": "Vila Itapura",
+      "desc": "Atendimento rápido e especializado no bairro Vila Itapura."
+    },
+    {
+      "bairro": "Nova Campinas",
+      "desc": "Cobertura completa do bairro Nova Campinas."
+    },
+    {
+      "bairro": "Jardim Chapadão",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Chapadão."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campinas — em breve",

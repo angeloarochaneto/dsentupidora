@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Maresias",
+      "desc": "Cobertura completa do bairro Maresias."
+    },
+    {
+      "bairro": "Boiçucanga",
+      "desc": "Atendimento rápido no bairro Boiçucanga."
+    },
+    {
+      "bairro": "Camburi",
+      "desc": "Serviço especializado no bairro Camburi."
+    },
+    {
+      "bairro": "Barra do Una",
+      "desc": "Cobertura completa do bairro Barra do Una."
+    },
+    {
+      "bairro": "Enseada",
+      "desc": "Atendimento residencial e comercial no bairro Enseada."
+    },
+    {
+      "bairro": "Juquehy",
+      "desc": "Atendimento rápido no bairro Juquehy."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Sebastião — em breve",

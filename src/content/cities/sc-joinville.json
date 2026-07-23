@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "América",
+      "desc": "Cobertura completa do bairro América."
+    },
+    {
+      "bairro": "Costa e Silva",
+      "desc": "Serviço ágil e garantido no bairro Costa e Silva."
+    },
+    {
+      "bairro": "Glória",
+      "desc": "Atendimento residencial e comercial no bairro Glória."
+    },
+    {
+      "bairro": "Bucarein",
+      "desc": "Cobertura completa do bairro Bucarein."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento rápido e especializado no bairro Boa Vista."
+    },
+    {
+      "bairro": "Atiradores",
+      "desc": "Cobertura completa do bairro Atiradores."
+    },
+    {
+      "bairro": "Iririú",
+      "desc": "Atendimento residencial e comercial no bairro Iririú."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Joinville — em breve",

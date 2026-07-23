@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Barra",
+      "desc": "Atendimento residencial e comercial no bairro Barra."
+    },
+    {
+      "bairro": "Pituba",
+      "desc": "Cobertura completa do bairro Pituba."
+    },
+    {
+      "bairro": "Rio Vermelho",
+      "desc": "Atendimento residencial e comercial no bairro Rio Vermelho."
+    },
+    {
+      "bairro": "Ondina",
+      "desc": "Cobertura completa do bairro Ondina."
+    },
+    {
+      "bairro": "Itapuã",
+      "desc": "Atendimento residencial e comercial no bairro Itapuã."
+    },
+    {
+      "bairro": "Centro Histórico",
+      "desc": "Cobertura completa do bairro Centro Histórico."
+    },
+    {
+      "bairro": "Barbalho",
+      "desc": "Atendimento residencial e comercial no bairro Barbalho."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Salvador — em breve",

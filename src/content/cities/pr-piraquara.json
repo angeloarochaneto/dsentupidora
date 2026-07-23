@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Guarituba",
+      "desc": "Cobertura completa do bairro Guarituba."
+    },
+    {
+      "bairro": "Borda do Campo",
+      "desc": "Atendimento rápido e eficiente no bairro Borda do Campo."
+    },
+    {
+      "bairro": "Águas Claras",
+      "desc": "Cobertura completa do bairro Águas Claras."
+    },
+    {
+      "bairro": "Cayva",
+      "desc": "Atendimento residencial e comercial no bairro Cayva."
+    },
+    {
+      "bairro": "Emboque",
+      "desc": "Cobertura completa do bairro Emboque."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Piraquara — em breve",

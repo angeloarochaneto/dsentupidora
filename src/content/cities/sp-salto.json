@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Cobertura completa do bairro Bela Vista."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento rápido no bairro Boa Vista."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Serviço especializado no bairro Jardim América."
+    },
+    {
+      "bairro": "Jardim Europa",
+      "desc": "Cobertura completa do bairro Jardim Europa."
+    },
+    {
+      "bairro": "Vila Nova",
+      "desc": "Atendimento residencial e comercial no bairro Vila Nova."
+    },
+    {
+      "bairro": "Estação",
+      "desc": "Atendimento rápido no bairro Estação."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Salto — em breve",

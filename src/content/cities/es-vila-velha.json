@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Praia da Costa",
+      "desc": "Atendimento residencial e comercial no bairro Praia da Costa."
+    },
+    {
+      "bairro": "Itapuã",
+      "desc": "Cobertura completa do bairro Itapuã."
+    },
+    {
+      "bairro": "Praia de Itaparica",
+      "desc": "Atendimento residencial e comercial no bairro Praia de Itaparica."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Cobertura completa do bairro Centro."
+    },
+    {
+      "bairro": "Cobilândia",
+      "desc": "Atendimento residencial e comercial no bairro Cobilândia."
+    },
+    {
+      "bairro": "Ibes",
+      "desc": "Cobertura completa do bairro Ibes."
+    },
+    {
+      "bairro": "Barra do Jucu",
+      "desc": "Atendimento residencial e comercial no bairro Barra do Jucu."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Vila Velha — em breve",

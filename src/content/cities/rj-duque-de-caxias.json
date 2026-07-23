@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Gramacho",
+      "desc": "Cobertura completa do bairro Jardim Gramacho."
+    },
+    {
+      "bairro": "Saracuruna",
+      "desc": "Atendimento rápido e eficiente no bairro Saracuruna."
+    },
+    {
+      "bairro": "Xerém",
+      "desc": "Cobertura completa do bairro Xerém."
+    },
+    {
+      "bairro": "Imbariê",
+      "desc": "Atendimento residencial e comercial no bairro Imbariê."
+    },
+    {
+      "bairro": "Campos Elíseos",
+      "desc": "Cobertura completa do bairro Campos Elíseos."
+    },
+    {
+      "bairro": "Santa Cruz da Serra",
+      "desc": "Atendimento rápido e eficiente no bairro Santa Cruz da Serra."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Duque de Caxias — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Areia Branca",
+      "desc": "Cobertura completa do bairro Areia Branca."
+    },
+    {
+      "bairro": "Vila Eduardo",
+      "desc": "Atendimento rápido e eficiente no bairro Vila Eduardo."
+    },
+    {
+      "bairro": "José e Maria",
+      "desc": "Cobertura completa do bairro José e Maria."
+    },
+    {
+      "bairro": "Jardim São Paulo",
+      "desc": "Atendimento residencial e comercial no bairro Jardim São Paulo."
+    },
+    {
+      "bairro": "Distrito Industrial",
+      "desc": "Cobertura completa do bairro Distrito Industrial."
+    },
+    {
+      "bairro": "Vila Eulália",
+      "desc": "Atendimento rápido e eficiente no bairro Vila Eulália."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Petrolina — em breve",

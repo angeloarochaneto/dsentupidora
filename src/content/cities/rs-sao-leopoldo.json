@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Feitoria",
+      "desc": "Cobertura completa do bairro Feitoria."
+    },
+    {
+      "bairro": "Rio dos Sinos",
+      "desc": "Serviço ágil e garantido no bairro Rio dos Sinos."
+    },
+    {
+      "bairro": "Cristo Rei",
+      "desc": "Atendimento residencial e comercial no bairro Cristo Rei."
+    },
+    {
+      "bairro": "Scharlau",
+      "desc": "Cobertura completa do bairro Scharlau."
+    },
+    {
+      "bairro": "Campina",
+      "desc": "Atendimento rápido e especializado no bairro Campina."
+    },
+    {
+      "bairro": "Santo André",
+      "desc": "Cobertura completa do bairro Santo André."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Leopoldo — em breve",

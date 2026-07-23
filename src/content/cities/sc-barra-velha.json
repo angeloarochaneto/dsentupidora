@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Itajubá",
+      "desc": "Cobertura completa do bairro Itajubá."
+    },
+    {
+      "bairro": "Icaraí",
+      "desc": "Serviço ágil e garantido no bairro Icaraí."
+    },
+    {
+      "bairro": "São Cristóvão",
+      "desc": "Atendimento residencial e comercial no bairro São Cristóvão."
+    },
+    {
+      "bairro": "Praia do Grant",
+      "desc": "Cobertura completa do bairro Praia do Grant."
+    },
+    {
+      "bairro": "Nova Esperança",
+      "desc": "Atendimento rápido e especializado no bairro Nova Esperança."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Barra Velha — em breve",

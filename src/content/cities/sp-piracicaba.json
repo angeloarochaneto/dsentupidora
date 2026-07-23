@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vila Rezende",
+      "desc": "Cobertura completa do bairro Vila Rezende."
+    },
+    {
+      "bairro": "Cidade Alta",
+      "desc": "Atendimento rápido no bairro Cidade Alta."
+    },
+    {
+      "bairro": "Piracicamirim",
+      "desc": "Serviço especializado no bairro Piracicamirim."
+    },
+    {
+      "bairro": "Taquaral",
+      "desc": "Cobertura completa do bairro Taquaral."
+    },
+    {
+      "bairro": "Paulista",
+      "desc": "Atendimento residencial e comercial no bairro Paulista."
+    },
+    {
+      "bairro": "Higienópolis",
+      "desc": "Atendimento rápido no bairro Higienópolis."
+    },
+    {
+      "bairro": "São Dimas",
+      "desc": "Cobertura completa no bairro São Dimas."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Piracicaba — em breve",

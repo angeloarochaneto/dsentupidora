@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Alvinópolis",
+      "desc": "Cobertura completa do bairro Alvinópolis."
+    },
+    {
+      "bairro": "Jardim Paulista",
+      "desc": "Serviço ágil e garantido no bairro Jardim Paulista."
+    },
+    {
+      "bairro": "Jardim do Lago",
+      "desc": "Atendimento residencial e comercial no bairro Jardim do Lago."
+    },
+    {
+      "bairro": "Caetetuba",
+      "desc": "Cobertura completa do bairro Caetetuba."
+    },
+    {
+      "bairro": "Vila Giglio",
+      "desc": "Atendimento rápido e especializado no bairro Vila Giglio."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Atibaia — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Central",
+      "desc": "Atendimento residencial e comercial no bairro Central."
+    },
+    {
+      "bairro": "Trem",
+      "desc": "Cobertura completa do bairro Trem."
+    },
+    {
+      "bairro": "Laguinho",
+      "desc": "Atendimento residencial e comercial no bairro Laguinho."
+    },
+    {
+      "bairro": "Jesus de Nazaré",
+      "desc": "Cobertura completa do bairro Jesus de Nazaré."
+    },
+    {
+      "bairro": "Santa Rita",
+      "desc": "Atendimento residencial e comercial no bairro Santa Rita."
+    },
+    {
+      "bairro": "Buritis",
+      "desc": "Cobertura completa do bairro Buritis."
+    },
+    {
+      "bairro": "Fazendinha",
+      "desc": "Atendimento residencial e comercial no bairro Fazendinha."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Macapá — em breve",

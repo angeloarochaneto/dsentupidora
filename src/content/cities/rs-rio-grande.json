@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cassino",
+      "desc": "Cobertura completa do bairro Cassino."
+    },
+    {
+      "bairro": "Carreiros",
+      "desc": "Serviço ágil e garantido no bairro Carreiros."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Nova."
+    },
+    {
+      "bairro": "Getúlio Vargas",
+      "desc": "Cobertura completa do bairro Getúlio Vargas."
+    },
+    {
+      "bairro": "Vila Maria",
+      "desc": "Atendimento rápido e especializado no bairro Vila Maria."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Rio Grande — em breve",

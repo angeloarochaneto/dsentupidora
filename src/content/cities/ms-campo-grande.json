@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Amambaí",
+      "desc": "Atendimento residencial e comercial no bairro Amambaí."
+    },
+    {
+      "bairro": "Jardim dos Estados",
+      "desc": "Cobertura completa do bairro Jardim dos Estados."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Jardim."
+    },
+    {
+      "bairro": "Tiradentes",
+      "desc": "Cobertura completa do bairro Tiradentes."
+    },
+    {
+      "bairro": "Santa Fé",
+      "desc": "Atendimento residencial e comercial no bairro Santa Fé."
+    },
+    {
+      "bairro": "São Francisco",
+      "desc": "Cobertura completa do bairro São Francisco."
+    },
+    {
+      "bairro": "Cruzeiro",
+      "desc": "Atendimento residencial e comercial no bairro Cruzeiro."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campo Grande — em breve",

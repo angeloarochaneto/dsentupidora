@@ -100,7 +100,28 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Coelho da Rocha",
+      "desc": "Atendimento residencial e comercial no bairro Coelho da Rocha."
+    },
+    {
+      "bairro": "Éden",
+      "desc": "Cobertura completa do bairro Éden."
+    },
+    {
+      "bairro": "Vilar dos Teles",
+      "desc": "Atendimento rápido e eficiente no bairro Vilar dos Teles."
+    },
+    {
+      "bairro": "Jardim Meriti",
+      "desc": "Cobertura completa do bairro Jardim Meriti."
+    },
+    {
+      "bairro": "São Mateus",
+      "desc": "Atendimento residencial e comercial no bairro São Mateus."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São João de Meriti — em breve",

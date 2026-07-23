@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Paulista",
+      "desc": "Cobertura completa do bairro Jardim Paulista."
+    },
+    {
+      "bairro": "Nova Veneza",
+      "desc": "Atendimento rápido no bairro Nova Veneza."
+    },
+    {
+      "bairro": "Jardim São Paulo",
+      "desc": "Serviço especializado no bairro Jardim São Paulo."
+    },
+    {
+      "bairro": "Vila Guarani",
+      "desc": "Cobertura completa do bairro Vila Guarani."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Nova."
+    },
+    {
+      "bairro": "Matão",
+      "desc": "Atendimento rápido no bairro Matão."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Sumaré — em breve",

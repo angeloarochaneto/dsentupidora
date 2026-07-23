@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Icaraí",
+      "desc": "Atendimento residencial e comercial no bairro Icaraí."
+    },
+    {
+      "bairro": "Ingá",
+      "desc": "Cobertura completa do bairro Ingá."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento rápido e eficiente no bairro Centro."
+    },
+    {
+      "bairro": "Charitas",
+      "desc": "Cobertura completa do bairro Charitas."
+    },
+    {
+      "bairro": "Piratininga",
+      "desc": "Atendimento residencial e comercial no bairro Piratininga."
+    },
+    {
+      "bairro": "Camboinhas",
+      "desc": "Cobertura completa do bairro Camboinhas."
+    },
+    {
+      "bairro": "Fonseca",
+      "desc": "Atendimento rápido e eficiente no bairro Fonseca."
+    },
+    {
+      "bairro": "Barreto",
+      "desc": "Cobertura completa do bairro Barreto."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Niterói — em breve",

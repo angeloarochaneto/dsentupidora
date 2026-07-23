@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vista Alegre",
+      "desc": "Cobertura completa do bairro Vista Alegre."
+    },
+    {
+      "bairro": "Santa Rita",
+      "desc": "Atendimento rápido no bairro Santa Rita."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Serviço especializado no bairro Cidade Nova."
+    },
+    {
+      "bairro": "Olaria",
+      "desc": "Cobertura completa do bairro Olaria."
+    },
+    {
+      "bairro": "Siqueira Campos",
+      "desc": "Atendimento residencial e comercial no bairro Siqueira Campos."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santa Bárbara d'Oeste — em breve",

@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cachoeira",
+      "desc": "Cobertura completa do bairro Cachoeira."
+    },
+    {
+      "bairro": "Cruzeiro",
+      "desc": "Atendimento rápido no bairro Cruzeiro."
+    },
+    {
+      "bairro": "Jardim Monte Serrat",
+      "desc": "Serviço especializado no bairro Jardim Monte Serrat."
+    },
+    {
+      "bairro": "Morro Grande",
+      "desc": "Cobertura completa do bairro Morro Grande."
+    },
+    {
+      "bairro": "Granja Urupês",
+      "desc": "Atendimento residencial e comercial no bairro Granja Urupês."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santa Isabel — em breve",

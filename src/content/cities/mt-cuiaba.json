@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro Norte",
+      "desc": "Atendimento residencial e comercial no bairro Centro Norte."
+    },
+    {
+      "bairro": "Centro Sul",
+      "desc": "Cobertura completa do bairro Centro Sul."
+    },
+    {
+      "bairro": "Coxipó",
+      "desc": "Atendimento residencial e comercial no bairro Coxipó."
+    },
+    {
+      "bairro": "Bandeirantes",
+      "desc": "Cobertura completa do bairro Bandeirantes."
+    },
+    {
+      "bairro": "Araés",
+      "desc": "Atendimento residencial e comercial no bairro Araés."
+    },
+    {
+      "bairro": "Duque de Caxias",
+      "desc": "Cobertura completa do bairro Duque de Caxias."
+    },
+    {
+      "bairro": "Jardim das Américas",
+      "desc": "Atendimento residencial e comercial no bairro Jardim das Américas."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Cuiabá — em breve",

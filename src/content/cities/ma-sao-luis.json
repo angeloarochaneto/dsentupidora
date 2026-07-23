@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Renascença",
+      "desc": "Atendimento residencial e comercial no bairro Renascença."
+    },
+    {
+      "bairro": "Anil",
+      "desc": "Cobertura completa do bairro Anil."
+    },
+    {
+      "bairro": "Calhau",
+      "desc": "Atendimento residencial e comercial no bairro Calhau."
+    },
+    {
+      "bairro": "Ponta d'Areia",
+      "desc": "Cobertura completa do bairro Ponta d'Areia."
+    },
+    {
+      "bairro": "São Francisco",
+      "desc": "Atendimento residencial e comercial no bairro São Francisco."
+    },
+    {
+      "bairro": "Cidade Operária",
+      "desc": "Cobertura completa do bairro Cidade Operária."
+    },
+    {
+      "bairro": "Liberdade",
+      "desc": "Atendimento residencial e comercial no bairro Liberdade."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Luís — em breve",

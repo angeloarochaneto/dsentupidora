@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Campolim",
+      "desc": "Cobertura completa do bairro Campolim."
+    },
+    {
+      "bairro": "Além Ponte",
+      "desc": "Atendimento rápido no bairro Além Ponte."
+    },
+    {
+      "bairro": "Jardim Europa",
+      "desc": "Serviço especializado no bairro Jardim Europa."
+    },
+    {
+      "bairro": "Éden",
+      "desc": "Cobertura completa do bairro Éden."
+    },
+    {
+      "bairro": "Ipiranga",
+      "desc": "Atendimento residencial e comercial no bairro Ipiranga."
+    },
+    {
+      "bairro": "Brigadeiro Tobias",
+      "desc": "Atendimento rápido no bairro Brigadeiro Tobias."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Sorocaba — em breve",

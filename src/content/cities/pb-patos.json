@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Brasília",
+      "desc": "Cobertura completa do bairro Brasília."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Atendimento rápido e eficiente no bairro Santo Antônio."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Cobertura completa do bairro Bela Vista."
+    },
+    {
+      "bairro": "Liberdade",
+      "desc": "Atendimento residencial e comercial no bairro Liberdade."
+    },
+    {
+      "bairro": "Monte Castelo",
+      "desc": "Cobertura completa do bairro Monte Castelo."
+    },
+    {
+      "bairro": "Jardim Magnólia",
+      "desc": "Atendimento rápido e eficiente no bairro Jardim Magnólia."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Patos — em breve",

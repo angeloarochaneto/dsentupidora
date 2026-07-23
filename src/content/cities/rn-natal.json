@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Alecrim",
+      "desc": "Atendimento residencial e comercial no bairro Alecrim."
+    },
+    {
+      "bairro": "Tirol",
+      "desc": "Cobertura completa do bairro Tirol."
+    },
+    {
+      "bairro": "Petrópolis",
+      "desc": "Atendimento rápido e especializado no bairro Petrópolis."
+    },
+    {
+      "bairro": "Lagoa Nova",
+      "desc": "Cobertura completa do bairro Lagoa Nova."
+    },
+    {
+      "bairro": "Ponta Negra",
+      "desc": "Atendimento residencial e comercial no bairro Ponta Negra."
+    },
+    {
+      "bairro": "Capim Macio",
+      "desc": "Serviço ágil e garantido no bairro Capim Macio."
+    },
+    {
+      "bairro": "Candelária",
+      "desc": "Cobertura completa do bairro Candelária."
+    },
+    {
+      "bairro": "Cidade Alta",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Alta."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Natal — em breve",

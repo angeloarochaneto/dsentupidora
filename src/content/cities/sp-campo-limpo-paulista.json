@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Botujuru",
+      "desc": "Cobertura completa do bairro Botujuru."
+    },
+    {
+      "bairro": "Jardim Brasil",
+      "desc": "Serviço ágil e garantido no bairro Jardim Brasil."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Atendimento residencial e comercial no bairro Jardim América."
+    },
+    {
+      "bairro": "Jardim Europa",
+      "desc": "Cobertura completa do bairro Jardim Europa."
+    },
+    {
+      "bairro": "Colinas do Pontal",
+      "desc": "Atendimento rápido e especializado no bairro Colinas do Pontal."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campo Limpo Paulista — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Aririú",
+      "desc": "Cobertura completa do bairro Aririú."
+    },
+    {
+      "bairro": "Barra do Aririú",
+      "desc": "Serviço ágil e garantido no bairro Barra do Aririú."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Atendimento residencial e comercial no bairro Bela Vista."
+    },
+    {
+      "bairro": "Pagani",
+      "desc": "Cobertura completa do bairro Pagani."
+    },
+    {
+      "bairro": "Caminho Novo",
+      "desc": "Atendimento rápido e especializado no bairro Caminho Novo."
+    },
+    {
+      "bairro": "Guarda do Embaú",
+      "desc": "Cobertura completa do bairro Guarda do Embaú."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Palhoça — em breve",

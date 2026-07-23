@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Fundinho",
+      "desc": "Cobertura completa do bairro Fundinho."
+    },
+    {
+      "bairro": "Tibery",
+      "desc": "Atendimento residencial e comercial no bairro Tibery."
+    },
+    {
+      "bairro": "Santa Mônica",
+      "desc": "Cobertura completa do bairro Santa Mônica."
+    },
+    {
+      "bairro": "Umuarama",
+      "desc": "Atendimento residencial e comercial no bairro Umuarama."
+    },
+    {
+      "bairro": "Custódio Pereira",
+      "desc": "Cobertura completa do bairro Custódio Pereira."
+    },
+    {
+      "bairro": "Tubalina",
+      "desc": "Atendimento residencial e comercial no bairro Tubalina."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Uberlândia — em breve",

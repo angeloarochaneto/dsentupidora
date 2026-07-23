@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Paulista",
+      "desc": "Cobertura completa do bairro Jardim Paulista."
+    },
+    {
+      "bairro": "Jardim Planalto",
+      "desc": "Atendimento rápido no bairro Jardim Planalto."
+    },
+    {
+      "bairro": "Jardim Progresso",
+      "desc": "Serviço especializado no bairro Jardim Progresso."
+    },
+    {
+      "bairro": "Jardim Santa Cândida",
+      "desc": "Cobertura completa do bairro Jardim Santa Cândida."
+    },
+    {
+      "bairro": "Jardim Nova Alvorada",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Nova Alvorada."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Monte Mor — em breve",

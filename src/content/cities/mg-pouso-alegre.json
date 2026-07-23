@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Ipiranga",
+      "desc": "Cobertura completa do bairro Ipiranga."
+    },
+    {
+      "bairro": "Paraíso",
+      "desc": "Atendimento residencial e comercial no bairro Paraíso."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Cobertura completa do bairro Bela Vista."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento residencial e comercial no bairro Boa Vista."
+    },
+    {
+      "bairro": "Morumbi",
+      "desc": "Cobertura completa do bairro Morumbi."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Atendimento residencial e comercial no bairro Santo Antônio."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Pouso Alegre — em breve",

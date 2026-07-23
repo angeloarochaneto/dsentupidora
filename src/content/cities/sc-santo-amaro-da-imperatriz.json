@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Calemba",
+      "desc": "Cobertura completa do bairro Calemba."
+    },
+    {
+      "bairro": "Caldas da Imperatriz",
+      "desc": "Serviço ágil e garantido no bairro Caldas da Imperatriz."
+    },
+    {
+      "bairro": "Vargem Grande",
+      "desc": "Atendimento residencial e comercial no bairro Vargem Grande."
+    },
+    {
+      "bairro": "Taquaras",
+      "desc": "Cobertura completa do bairro Taquaras."
+    },
+    {
+      "bairro": "Braço São João",
+      "desc": "Atendimento rápido e especializado no bairro Braço São João."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santo Amaro da Imperatriz — em breve",

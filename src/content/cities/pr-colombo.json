@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Guabirotuba",
+      "desc": "Atendimento residencial e comercial no bairro Guabirotuba."
+    },
+    {
+      "bairro": "Roça Grande",
+      "desc": "Cobertura completa do bairro Roça Grande."
+    },
+    {
+      "bairro": "São Gabriel",
+      "desc": "Atendimento rápido e eficiente no bairro São Gabriel."
+    },
+    {
+      "bairro": "Guarani",
+      "desc": "Cobertura completa do bairro Guarani."
+    },
+    {
+      "bairro": "Campo Pequeno",
+      "desc": "Atendimento residencial e comercial no bairro Campo Pequeno."
+    },
+    {
+      "bairro": "Butiatumirim",
+      "desc": "Cobertura completa do bairro Butiatumirim."
+    },
+    {
+      "bairro": "São Dimas",
+      "desc": "Atendimento rápido e eficiente no bairro São Dimas."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Colombo — em breve",

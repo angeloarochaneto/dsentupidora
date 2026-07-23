@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Europa",
+      "desc": "Cobertura completa do bairro Jardim Europa."
+    },
+    {
+      "bairro": "Vila Aparecida",
+      "desc": "Serviço ágil e garantido no bairro Vila Aparecida."
+    },
+    {
+      "bairro": "Jardim São José",
+      "desc": "Atendimento residencial e comercial no bairro Jardim São José."
+    },
+    {
+      "bairro": "Taboão",
+      "desc": "Cobertura completa do bairro Taboão."
+    },
+    {
+      "bairro": "Jardim do Lago",
+      "desc": "Atendimento rápido e especializado no bairro Jardim do Lago."
+    },
+    {
+      "bairro": "Jardim Nova Bragança",
+      "desc": "Cobertura completa do bairro Jardim Nova Bragança."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Bragança Paulista — em breve",

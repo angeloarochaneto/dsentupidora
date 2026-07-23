@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Afonso Pena",
+      "desc": "Atendimento residencial e comercial no bairro Afonso Pena."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Cobertura completa do bairro Centro."
+    },
+    {
+      "bairro": "Águas Belas",
+      "desc": "Atendimento rápido e eficiente no bairro Águas Belas."
+    },
+    {
+      "bairro": "Parque da Fonte",
+      "desc": "Cobertura completa do bairro Parque da Fonte."
+    },
+    {
+      "bairro": "Guatupê",
+      "desc": "Atendimento residencial e comercial no bairro Guatupê."
+    },
+    {
+      "bairro": "São Pedro",
+      "desc": "Cobertura completa do bairro São Pedro."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Atendimento rápido e eficiente no bairro Cidade Jardim."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São José dos Pinhais — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "São José",
+      "desc": "Cobertura completa do bairro São José."
+    },
+    {
+      "bairro": "São Miguel",
+      "desc": "Serviço ágil e garantido no bairro São Miguel."
+    },
+    {
+      "bairro": "Brum",
+      "desc": "Atendimento residencial e comercial no bairro Brum."
+    },
+    {
+      "bairro": "São João",
+      "desc": "Cobertura completa do bairro São João."
+    },
+    {
+      "bairro": "Conceição",
+      "desc": "Atendimento rápido e especializado no bairro Conceição."
+    },
+    {
+      "bairro": "Farroupilha",
+      "desc": "Cobertura completa do bairro Farroupilha."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Cruz Alta — em breve",

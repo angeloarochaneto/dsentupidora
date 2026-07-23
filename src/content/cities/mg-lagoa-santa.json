@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Joana Darc",
+      "desc": "Cobertura completa do bairro Joana Darc."
+    },
+    {
+      "bairro": "Campinho",
+      "desc": "Atendimento residencial e comercial no bairro Campinho."
+    },
+    {
+      "bairro": "Lapinha",
+      "desc": "Cobertura completa do bairro Lapinha."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento residencial e comercial no bairro Boa Vista."
+    },
+    {
+      "bairro": "Várzea",
+      "desc": "Cobertura completa do bairro Várzea."
+    },
+    {
+      "bairro": "Ipanema",
+      "desc": "Atendimento residencial e comercial no bairro Ipanema."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Lagoa Santa — em breve",

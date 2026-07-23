@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centenário",
+      "desc": "Atendimento residencial e comercial no bairro Centenário."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Cobertura completa do bairro Boa Vista."
+    },
+    {
+      "bairro": "Alto do Moura",
+      "desc": "Atendimento rápido e eficiente no bairro Alto do Moura."
+    },
+    {
+      "bairro": "Cidade Alta",
+      "desc": "Cobertura completa do bairro Cidade Alta."
+    },
+    {
+      "bairro": "Indianópolis",
+      "desc": "Atendimento residencial e comercial no bairro Indianópolis."
+    },
+    {
+      "bairro": "Petrópolis",
+      "desc": "Cobertura completa do bairro Petrópolis."
+    },
+    {
+      "bairro": "Maurício de Nassau",
+      "desc": "Atendimento rápido e eficiente no bairro Maurício de Nassau."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Caruaru — em breve",

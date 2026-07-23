@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Tomba",
+      "desc": "Atendimento residencial e comercial no bairro Tomba."
+    },
+    {
+      "bairro": "Kalilândia",
+      "desc": "Cobertura completa do bairro Kalilândia."
+    },
+    {
+      "bairro": "Sobradinho",
+      "desc": "Atendimento residencial e comercial no bairro Sobradinho."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Cobertura completa do bairro Cidade Nova."
+    },
+    {
+      "bairro": "Capuchinhos",
+      "desc": "Atendimento residencial e comercial no bairro Capuchinhos."
+    },
+    {
+      "bairro": "Brasília",
+      "desc": "Cobertura completa do bairro Brasília."
+    },
+    {
+      "bairro": "Baraúnas",
+      "desc": "Atendimento residencial e comercial no bairro Baraúnas."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Feira de Santana — em breve",

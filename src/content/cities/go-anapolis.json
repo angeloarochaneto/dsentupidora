@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jundiaí",
+      "desc": "Cobertura completa do bairro Jundiaí."
+    },
+    {
+      "bairro": "Vila Jaiara",
+      "desc": "Atendimento residencial e comercial no bairro Vila Jaiara."
+    },
+    {
+      "bairro": "Lourdes",
+      "desc": "Cobertura completa do bairro Lourdes."
+    },
+    {
+      "bairro": "Recanto do Sol",
+      "desc": "Atendimento residencial e comercial no bairro Recanto do Sol."
+    },
+    {
+      "bairro": "Jardim Alexandrina",
+      "desc": "Cobertura completa do bairro Jardim Alexandrina."
+    },
+    {
+      "bairro": "Vila Góis",
+      "desc": "Atendimento residencial e comercial no bairro Vila Góis."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Anápolis — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Alcântara",
+      "desc": "Cobertura completa do bairro Alcântara."
+    },
+    {
+      "bairro": "Trindade",
+      "desc": "Atendimento rápido e eficiente no bairro Trindade."
+    },
+    {
+      "bairro": "Colubandê",
+      "desc": "Cobertura completa do bairro Colubandê."
+    },
+    {
+      "bairro": "Boaçu",
+      "desc": "Atendimento residencial e comercial no bairro Boaçu."
+    },
+    {
+      "bairro": "Mutuá",
+      "desc": "Cobertura completa do bairro Mutuá."
+    },
+    {
+      "bairro": "Zé Garoto",
+      "desc": "Atendimento rápido e eficiente no bairro Zé Garoto."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Gonçalo — em breve",

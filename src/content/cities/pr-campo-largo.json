@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Bateias",
+      "desc": "Atendimento residencial e comercial no bairro Bateias."
+    },
+    {
+      "bairro": "Três Córregos",
+      "desc": "Cobertura completa do bairro Três Córregos."
+    },
+    {
+      "bairro": "São Silvestre",
+      "desc": "Atendimento rápido e eficiente no bairro São Silvestre."
+    },
+    {
+      "bairro": "Ferraria",
+      "desc": "Cobertura completa do bairro Ferraria."
+    },
+    {
+      "bairro": "Fazendinha",
+      "desc": "Atendimento residencial e comercial no bairro Fazendinha."
+    },
+    {
+      "bairro": "Cercadinho",
+      "desc": "Cobertura completa do bairro Cercadinho."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campo Largo — em breve",

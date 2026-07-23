@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Porto",
+      "desc": "Cobertura completa do bairro Porto."
+    },
+    {
+      "bairro": "Barra Nova",
+      "desc": "Atendimento residencial e comercial no bairro Barra Nova."
+    },
+    {
+      "bairro": "Guriri Norte",
+      "desc": "Cobertura completa do bairro Guriri Norte."
+    },
+    {
+      "bairro": "Guriri Sul",
+      "desc": "Atendimento residencial e comercial no bairro Guriri Sul."
+    },
+    {
+      "bairro": "Cricaré",
+      "desc": "Cobertura completa do bairro Cricaré."
+    },
+    {
+      "bairro": "Litorâneo",
+      "desc": "Atendimento residencial e comercial no bairro Litorâneo."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Mateus — em breve",

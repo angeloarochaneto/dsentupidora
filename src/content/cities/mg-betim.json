@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Alvorada",
+      "desc": "Cobertura completa do bairro Alvorada."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Atendimento residencial e comercial no bairro Bela Vista."
+    },
+    {
+      "bairro": "Petrópolis",
+      "desc": "Cobertura completa do bairro Petrópolis."
+    },
+    {
+      "bairro": "Niterói",
+      "desc": "Atendimento residencial e comercial no bairro Niterói."
+    },
+    {
+      "bairro": "Jardim Brasília",
+      "desc": "Cobertura completa do bairro Jardim Brasília."
+    },
+    {
+      "bairro": "São Cristóvão",
+      "desc": "Atendimento residencial e comercial no bairro São Cristóvão."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Betim — em breve",

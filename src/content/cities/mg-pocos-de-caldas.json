@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Bandeirantes",
+      "desc": "Cobertura completa do bairro Jardim Bandeirantes."
+    },
+    {
+      "bairro": "Jardim Europa",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Europa."
+    },
+    {
+      "bairro": "Jardim Kennedy",
+      "desc": "Cobertura completa do bairro Jardim Kennedy."
+    },
+    {
+      "bairro": "Vila Rica",
+      "desc": "Atendimento residencial e comercial no bairro Vila Rica."
+    },
+    {
+      "bairro": "Jardim Planalto",
+      "desc": "Cobertura completa do bairro Jardim Planalto."
+    },
+    {
+      "bairro": "Funcionários",
+      "desc": "Atendimento residencial e comercial no bairro Funcionários."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Poços de Caldas — em breve",

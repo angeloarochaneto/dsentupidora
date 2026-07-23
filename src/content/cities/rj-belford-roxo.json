@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Heliópolis",
+      "desc": "Cobertura completa do bairro Heliópolis."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Atendimento rápido e eficiente no bairro Jardim América."
+    },
+    {
+      "bairro": "Santa Cecília",
+      "desc": "Cobertura completa do bairro Santa Cecília."
+    },
+    {
+      "bairro": "Parque Fluminense",
+      "desc": "Atendimento residencial e comercial no bairro Parque Fluminense."
+    },
+    {
+      "bairro": "Boa Esperança",
+      "desc": "Cobertura completa do bairro Boa Esperança."
+    },
+    {
+      "bairro": "Prata",
+      "desc": "Atendimento rápido e eficiente no bairro Prata."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Belford Roxo — em breve",

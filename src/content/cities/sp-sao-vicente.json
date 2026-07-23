@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Itararé",
+      "desc": "Cobertura completa do bairro Itararé."
+    },
+    {
+      "bairro": "Gonzaguinha",
+      "desc": "Atendimento rápido no bairro Gonzaguinha."
+    },
+    {
+      "bairro": "Humaitá",
+      "desc": "Serviço especializado no bairro Humaitá."
+    },
+    {
+      "bairro": "Japuí",
+      "desc": "Cobertura completa do bairro Japuí."
+    },
+    {
+      "bairro": "Vila Margarida",
+      "desc": "Atendimento residencial e comercial no bairro Vila Margarida."
+    },
+    {
+      "bairro": "Parque Continental",
+      "desc": "Atendimento rápido no bairro Parque Continental."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Vicente — em breve",

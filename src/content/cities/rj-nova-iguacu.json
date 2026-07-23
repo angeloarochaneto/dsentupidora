@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Comendador Soares",
+      "desc": "Cobertura completa do bairro Comendador Soares."
+    },
+    {
+      "bairro": "Posse",
+      "desc": "Atendimento rápido e eficiente no bairro Posse."
+    },
+    {
+      "bairro": "Marapicu",
+      "desc": "Cobertura completa do bairro Marapicu."
+    },
+    {
+      "bairro": "Adrianópolis",
+      "desc": "Atendimento residencial e comercial no bairro Adrianópolis."
+    },
+    {
+      "bairro": "Cerâmica",
+      "desc": "Cobertura completa do bairro Cerâmica."
+    },
+    {
+      "bairro": "Austin",
+      "desc": "Atendimento rápido e eficiente no bairro Austin."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Nova Iguaçu — em breve",

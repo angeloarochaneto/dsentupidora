@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Trindade",
+      "desc": "Cobertura completa do bairro Trindade."
+    },
+    {
+      "bairro": "Coqueiros",
+      "desc": "Serviço ágil e garantido no bairro Coqueiros."
+    },
+    {
+      "bairro": "Ingleses",
+      "desc": "Atendimento residencial e comercial no bairro Ingleses."
+    },
+    {
+      "bairro": "Campeche",
+      "desc": "Cobertura completa do bairro Campeche."
+    },
+    {
+      "bairro": "Agronômica",
+      "desc": "Atendimento rápido e especializado no bairro Agronômica."
+    },
+    {
+      "bairro": "Lagoa da Conceição",
+      "desc": "Cobertura completa do bairro Lagoa da Conceição."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Florianópolis — em breve",

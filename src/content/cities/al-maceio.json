@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Jatiúca",
+      "desc": "Atendimento residencial e comercial no bairro Jatiúca."
+    },
+    {
+      "bairro": "Ponta Verde",
+      "desc": "Cobertura completa do bairro Ponta Verde."
+    },
+    {
+      "bairro": "Pajuçara",
+      "desc": "Atendimento residencial e comercial no bairro Pajuçara."
+    },
+    {
+      "bairro": "Farol",
+      "desc": "Cobertura completa do bairro Farol."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jaraguá",
+      "desc": "Cobertura completa do bairro Jaraguá."
+    },
+    {
+      "bairro": "Tabuleiro do Martins",
+      "desc": "Atendimento residencial e comercial no bairro Tabuleiro do Martins."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Maceió — em breve",

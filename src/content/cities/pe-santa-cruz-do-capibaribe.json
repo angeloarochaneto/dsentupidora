@@ -100,7 +100,28 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Nova Santa Cruz",
+      "desc": "Cobertura completa do bairro Nova Santa Cruz."
+    },
+    {
+      "bairro": "Santo Agostinho",
+      "desc": "Atendimento rápido e eficiente no bairro Santo Agostinho."
+    },
+    {
+      "bairro": "São Cristóvão",
+      "desc": "Cobertura completa do bairro São Cristóvão."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Atendimento residencial e comercial no bairro Bela Vista."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santa Cruz do Capibaribe — em breve",

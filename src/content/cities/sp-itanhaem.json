@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Suarão",
+      "desc": "Cobertura completa do bairro Suarão."
+    },
+    {
+      "bairro": "Cibratel",
+      "desc": "Atendimento rápido no bairro Cibratel."
+    },
+    {
+      "bairro": "Savoy",
+      "desc": "Serviço especializado no bairro Savoy."
+    },
+    {
+      "bairro": "Gaivota",
+      "desc": "Cobertura completa do bairro Gaivota."
+    },
+    {
+      "bairro": "Jardim Suarão",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Suarão."
+    },
+    {
+      "bairro": "Belas Artes",
+      "desc": "Atendimento rápido no bairro Belas Artes."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Itanhaém — em breve",

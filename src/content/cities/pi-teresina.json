@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Ilhotas",
+      "desc": "Cobertura completa do bairro Ilhotas."
+    },
+    {
+      "bairro": "Fátima",
+      "desc": "Atendimento rápido e eficiente no bairro Fátima."
+    },
+    {
+      "bairro": "Angelim",
+      "desc": "Cobertura completa do bairro Angelim."
+    },
+    {
+      "bairro": "Itararé",
+      "desc": "Atendimento residencial e comercial no bairro Itararé."
+    },
+    {
+      "bairro": "Mocambinho",
+      "desc": "Cobertura completa do bairro Mocambinho."
+    },
+    {
+      "bairro": "Cabral",
+      "desc": "Atendimento rápido e eficiente no bairro Cabral."
+    },
+    {
+      "bairro": "Cristo Rei",
+      "desc": "Cobertura completa do bairro Cristo Rei."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Teresina — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Areal",
+      "desc": "Cobertura completa do bairro Areal."
+    },
+    {
+      "bairro": "Fragata",
+      "desc": "Serviço ágil e garantido no bairro Fragata."
+    },
+    {
+      "bairro": "Laranjal",
+      "desc": "Atendimento residencial e comercial no bairro Laranjal."
+    },
+    {
+      "bairro": "Três Vendas",
+      "desc": "Cobertura completa do bairro Três Vendas."
+    },
+    {
+      "bairro": "São Gonçalo",
+      "desc": "Atendimento rápido e especializado no bairro São Gonçalo."
+    },
+    {
+      "bairro": "Porto",
+      "desc": "Cobertura completa do bairro Porto."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Pelotas — em breve",

@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Gralha Azul",
+      "desc": "Atendimento residencial e comercial no bairro Gralha Azul."
+    },
+    {
+      "bairro": "Veneza",
+      "desc": "Cobertura completa do bairro Veneza."
+    },
+    {
+      "bairro": "Santa Terezinha",
+      "desc": "Atendimento rápido e eficiente no bairro Santa Terezinha."
+    },
+    {
+      "bairro": "Pioneiros",
+      "desc": "Cobertura completa do bairro Pioneiros."
+    },
+    {
+      "bairro": "Iguaçu",
+      "desc": "Atendimento residencial e comercial no bairro Iguaçu."
+    },
+    {
+      "bairro": "Eucaliptos",
+      "desc": "Cobertura completa do bairro Eucaliptos."
+    },
+    {
+      "bairro": "Estados",
+      "desc": "Atendimento rápido e eficiente no bairro Estados."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Cobertura completa do bairro Centro."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Fazenda Rio Grande — em breve",

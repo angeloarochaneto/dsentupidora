@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Aeroporto",
+      "desc": "Cobertura completa do bairro Aeroporto."
+    },
+    {
+      "bairro": "São Francisco",
+      "desc": "Serviço ágil e garantido no bairro São Francisco."
+    },
+    {
+      "bairro": "São Vicente",
+      "desc": "Atendimento residencial e comercial no bairro São Vicente."
+    },
+    {
+      "bairro": "São Pedro",
+      "desc": "Cobertura completa do bairro São Pedro."
+    },
+    {
+      "bairro": "Caçari",
+      "desc": "Atendimento rápido e especializado no bairro Caçari."
+    },
+    {
+      "bairro": "Liberdade",
+      "desc": "Cobertura completa do bairro Liberdade."
+    },
+    {
+      "bairro": "Centenário",
+      "desc": "Atendimento residencial e comercial no bairro Centenário."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Boa Vista — em breve",

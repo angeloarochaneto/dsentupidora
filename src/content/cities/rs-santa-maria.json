@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Camobi",
+      "desc": "Cobertura completa do bairro Camobi."
+    },
+    {
+      "bairro": "Nossa Senhora de Fátima",
+      "desc": "Serviço ágil e garantido no bairro Nossa Senhora de Fátima."
+    },
+    {
+      "bairro": "Nossa Senhora de Lourdes",
+      "desc": "Atendimento residencial e comercial no bairro Nossa Senhora de Lourdes."
+    },
+    {
+      "bairro": "Nonoai",
+      "desc": "Cobertura completa do bairro Nonoai."
+    },
+    {
+      "bairro": "Patronato",
+      "desc": "Atendimento rápido e especializado no bairro Patronato."
+    },
+    {
+      "bairro": "Medianeira",
+      "desc": "Cobertura completa do bairro Medianeira."
+    },
+    {
+      "bairro": "Tancredo Neves",
+      "desc": "Atendimento residencial e comercial no bairro Tancredo Neves."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santa Maria — em breve",

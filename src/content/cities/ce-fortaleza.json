@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Aldeota",
+      "desc": "Atendimento residencial e comercial no bairro Aldeota."
+    },
+    {
+      "bairro": "Meireles",
+      "desc": "Cobertura completa do bairro Meireles."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Praia de Iracema",
+      "desc": "Cobertura completa do bairro Praia de Iracema."
+    },
+    {
+      "bairro": "Parangaba",
+      "desc": "Atendimento residencial e comercial no bairro Parangaba."
+    },
+    {
+      "bairro": "Benfica",
+      "desc": "Cobertura completa do bairro Benfica."
+    },
+    {
+      "bairro": "Barra do Ceará",
+      "desc": "Atendimento residencial e comercial no bairro Barra do Ceará."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Fortaleza — em breve",

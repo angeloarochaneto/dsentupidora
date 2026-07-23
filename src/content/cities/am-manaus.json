@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Cobertura completa do bairro Cidade Nova."
+    },
+    {
+      "bairro": "Adrianópolis",
+      "desc": "Atendimento residencial e comercial no bairro Adrianópolis."
+    },
+    {
+      "bairro": "Ponta Negra",
+      "desc": "Cobertura completa do bairro Ponta Negra."
+    },
+    {
+      "bairro": "Aleixo",
+      "desc": "Atendimento residencial e comercial no bairro Aleixo."
+    },
+    {
+      "bairro": "Flores",
+      "desc": "Cobertura completa do bairro Flores."
+    },
+    {
+      "bairro": "Parque 10 de Novembro",
+      "desc": "Atendimento residencial e comercial no bairro Parque 10 de Novembro."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Manaus — em breve",

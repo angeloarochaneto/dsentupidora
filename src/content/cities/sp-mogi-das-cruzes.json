@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Brás Cubas",
+      "desc": "Cobertura completa do bairro Brás Cubas."
+    },
+    {
+      "bairro": "Jundiapeba",
+      "desc": "Atendimento rápido no bairro Jundiapeba."
+    },
+    {
+      "bairro": "César de Souza",
+      "desc": "Serviço especializado no bairro César de Souza."
+    },
+    {
+      "bairro": "Sabaúna",
+      "desc": "Cobertura completa do bairro Sabaúna."
+    },
+    {
+      "bairro": "Taboão",
+      "desc": "Atendimento residencial e comercial no bairro Taboão."
+    },
+    {
+      "bairro": "Socorro",
+      "desc": "Atendimento rápido no bairro Socorro."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Mogi das Cruzes — em breve",

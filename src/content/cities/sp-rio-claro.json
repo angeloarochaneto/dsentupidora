@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Consolação",
+      "desc": "Cobertura completa do bairro Consolação."
+    },
+    {
+      "bairro": "Santana",
+      "desc": "Atendimento rápido no bairro Santana."
+    },
+    {
+      "bairro": "Santa Cruz",
+      "desc": "Serviço especializado no bairro Santa Cruz."
+    },
+    {
+      "bairro": "São José",
+      "desc": "Cobertura completa do bairro São José."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Jardim."
+    },
+    {
+      "bairro": "Vila Operária",
+      "desc": "Atendimento rápido no bairro Vila Operária."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Rio Claro — em breve",

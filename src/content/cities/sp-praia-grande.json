@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Boqueirão",
+      "desc": "Atendimento residencial e comercial no bairro Boqueirão."
+    },
+    {
+      "bairro": "Guilhermina",
+      "desc": "Cobertura completa do bairro Guilhermina."
+    },
+    {
+      "bairro": "Ocian",
+      "desc": "Atendimento rápido no bairro Ocian."
+    },
+    {
+      "bairro": "Vila Caiçara",
+      "desc": "Serviço especializado no bairro Vila Caiçara."
+    },
+    {
+      "bairro": "Tupi",
+      "desc": "Cobertura completa do bairro Tupi."
+    },
+    {
+      "bairro": "Aviação",
+      "desc": "Atendimento residencial e comercial no bairro Aviação."
+    },
+    {
+      "bairro": "Vila Mirim",
+      "desc": "Atendimento rápido no bairro Vila Mirim."
+    },
+    {
+      "bairro": "Solemar",
+      "desc": "Cobertura completa no bairro Solemar."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Praia Grande — em breve",

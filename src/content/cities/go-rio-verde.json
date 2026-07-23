@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Anhanguera",
+      "desc": "Atendimento residencial e comercial no bairro Anhanguera."
+    },
+    {
+      "bairro": "Jardim Goiás",
+      "desc": "Cobertura completa do bairro Jardim Goiás."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Atendimento residencial e comercial no bairro Jardim América."
+    },
+    {
+      "bairro": "Jardim Brasília",
+      "desc": "Cobertura completa do bairro Jardim Brasília."
+    },
+    {
+      "bairro": "Popular",
+      "desc": "Atendimento residencial e comercial no bairro Popular."
+    },
+    {
+      "bairro": "Eldorado",
+      "desc": "Cobertura completa do bairro Eldorado."
+    },
+    {
+      "bairro": "Liberdade",
+      "desc": "Atendimento residencial e comercial no bairro Liberdade."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Rio Verde — em breve",

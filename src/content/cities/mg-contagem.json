@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Eldorado",
+      "desc": "Atendimento residencial e comercial no bairro Eldorado."
+    },
+    {
+      "bairro": "Riacho das Pedras",
+      "desc": "Cobertura completa do bairro Riacho das Pedras."
+    },
+    {
+      "bairro": "Nacional",
+      "desc": "Atendimento residencial e comercial no bairro Nacional."
+    },
+    {
+      "bairro": "Petrolândia",
+      "desc": "Cobertura completa do bairro Petrolândia."
+    },
+    {
+      "bairro": "Ressaca",
+      "desc": "Atendimento residencial e comercial no bairro Ressaca."
+    },
+    {
+      "bairro": "Cidade Industrial",
+      "desc": "Cobertura completa do bairro Cidade Industrial."
+    },
+    {
+      "bairro": "Vargem das Flores",
+      "desc": "Atendimento residencial e comercial no bairro Vargem das Flores."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Contagem — em breve",

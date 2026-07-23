@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Uvaranas",
+      "desc": "Atendimento residencial e comercial no bairro Uvaranas."
+    },
+    {
+      "bairro": "Contorno",
+      "desc": "Cobertura completa do bairro Contorno."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento rápido e eficiente no bairro Boa Vista."
+    },
+    {
+      "bairro": "Cara Cara",
+      "desc": "Cobertura completa do bairro Cara Cara."
+    },
+    {
+      "bairro": "Chapada",
+      "desc": "Atendimento residencial e comercial no bairro Chapada."
+    },
+    {
+      "bairro": "Olarias",
+      "desc": "Cobertura completa do bairro Olarias."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Ponta Grossa — em breve",

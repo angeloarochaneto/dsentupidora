@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Bosque",
+      "desc": "Cobertura completa do bairro Bosque."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Atendimento rápido no bairro Cidade Jardim."
+    },
+    {
+      "bairro": "Jardim Alto da Boa Vista",
+      "desc": "Serviço especializado no bairro Jardim Alto da Boa Vista."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Cobertura completa do bairro Jardim América."
+    },
+    {
+      "bairro": "Parque Alexandrina",
+      "desc": "Atendimento residencial e comercial no bairro Parque Alexandrina."
+    },
+    {
+      "bairro": "Jardim Paulista",
+      "desc": "Atendimento rápido no bairro Jardim Paulista."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Presidente Prudente — em breve",

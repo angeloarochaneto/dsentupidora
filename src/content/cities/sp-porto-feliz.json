@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Cobertura completa do bairro Cidade Jardim."
+    },
+    {
+      "bairro": "Jardim Porto Feliz",
+      "desc": "Atendimento rápido no bairro Jardim Porto Feliz."
+    },
+    {
+      "bairro": "Vila América",
+      "desc": "Serviço especializado no bairro Vila América."
+    },
+    {
+      "bairro": "Progresso",
+      "desc": "Cobertura completa do bairro Progresso."
+    },
+    {
+      "bairro": "Cidade Nova Bandeirantes",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Nova Bandeirantes."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Porto Feliz — em breve",

@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Moinhos de Vento",
+      "desc": "Atendimento residencial e comercial no bairro Moinhos de Vento."
+    },
+    {
+      "bairro": "Cidade Baixa",
+      "desc": "Cobertura completa do bairro Cidade Baixa."
+    },
+    {
+      "bairro": "Menino Deus",
+      "desc": "Serviço ágil e garantido no bairro Menino Deus."
+    },
+    {
+      "bairro": "Bom Fim",
+      "desc": "Atendimento residencial e comercial no bairro Bom Fim."
+    },
+    {
+      "bairro": "Petrópolis",
+      "desc": "Cobertura completa do bairro Petrópolis."
+    },
+    {
+      "bairro": "Cristal",
+      "desc": "Atendimento rápido e especializado no bairro Cristal."
+    },
+    {
+      "bairro": "Partenon",
+      "desc": "Cobertura completa do bairro Partenon."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Atendimento residencial e comercial no bairro Bela Vista."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Porto Alegre — em breve",

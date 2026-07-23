@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Barcelona",
+      "desc": "Cobertura completa do bairro Barcelona."
+    },
+    {
+      "bairro": "Santa Paula",
+      "desc": "Atendimento rápido no bairro Santa Paula."
+    },
+    {
+      "bairro": "Olímpico",
+      "desc": "Serviço especializado no bairro Olímpico."
+    },
+    {
+      "bairro": "Nova Gerty",
+      "desc": "Cobertura completa do bairro Nova Gerty."
+    },
+    {
+      "bairro": "Fundação",
+      "desc": "Atendimento residencial e comercial no bairro Fundação."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Atendimento rápido no bairro Santo Antônio."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Caetano do Sul — em breve",

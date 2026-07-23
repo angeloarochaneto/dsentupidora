@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Avenida",
+      "desc": "Cobertura completa do bairro Avenida."
+    },
+    {
+      "bairro": "Universitário",
+      "desc": "Serviço ágil e garantido no bairro Universitário."
+    },
+    {
+      "bairro": "Bom Jesus",
+      "desc": "Atendimento residencial e comercial no bairro Bom Jesus."
+    },
+    {
+      "bairro": "Distrito Industrial",
+      "desc": "Cobertura completa do bairro Distrito Industrial."
+    },
+    {
+      "bairro": "Arroio Grande",
+      "desc": "Atendimento rápido e especializado no bairro Arroio Grande."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santa Cruz do Sul — em breve",

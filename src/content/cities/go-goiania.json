@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Setor Bueno",
+      "desc": "Atendimento residencial e comercial no Setor Bueno."
+    },
+    {
+      "bairro": "Setor Oeste",
+      "desc": "Cobertura completa no Setor Oeste."
+    },
+    {
+      "bairro": "Setor Sul",
+      "desc": "Atendimento residencial e comercial no Setor Sul."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Cobertura completa do bairro Jardim América."
+    },
+    {
+      "bairro": "Marista",
+      "desc": "Atendimento residencial e comercial no bairro Marista."
+    },
+    {
+      "bairro": "Campinas",
+      "desc": "Cobertura completa do bairro Campinas."
+    },
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Goiânia — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Coqueiro",
+      "desc": "Cobertura completa do bairro Coqueiro."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Atendimento rápido e eficiente no bairro Cidade Nova."
+    },
+    {
+      "bairro": "Guanabara",
+      "desc": "Cobertura completa do bairro Guanabara."
+    },
+    {
+      "bairro": "Distrito Industrial",
+      "desc": "Atendimento residencial e comercial no bairro Distrito Industrial."
+    },
+    {
+      "bairro": "Águas Lindas",
+      "desc": "Cobertura completa do bairro Águas Lindas."
+    },
+    {
+      "bairro": "Aurá",
+      "desc": "Atendimento rápido e eficiente no bairro Aurá."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Ananindeua — em breve",

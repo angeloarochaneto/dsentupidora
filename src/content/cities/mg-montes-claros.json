@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cidade Nova",
+      "desc": "Cobertura completa do bairro Cidade Nova."
+    },
+    {
+      "bairro": "Ibituruna",
+      "desc": "Atendimento residencial e comercial no bairro Ibituruna."
+    },
+    {
+      "bairro": "Maracanã",
+      "desc": "Cobertura completa do bairro Maracanã."
+    },
+    {
+      "bairro": "Renascença",
+      "desc": "Atendimento residencial e comercial no bairro Renascença."
+    },
+    {
+      "bairro": "Universitário",
+      "desc": "Cobertura completa do bairro Universitário."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Atendimento residencial e comercial no bairro Santo Antônio."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Montes Claros — em breve",

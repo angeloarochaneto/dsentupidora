@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Moinhos",
+      "desc": "Cobertura completa do bairro Moinhos."
+    },
+    {
+      "bairro": "Universitário",
+      "desc": "Serviço ágil e garantido no bairro Universitário."
+    },
+    {
+      "bairro": "Conservas",
+      "desc": "Atendimento residencial e comercial no bairro Conservas."
+    },
+    {
+      "bairro": "Florestal",
+      "desc": "Cobertura completa do bairro Florestal."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Atendimento rápido e especializado no bairro Santo Antônio."
+    },
+    {
+      "bairro": "Campestre",
+      "desc": "Cobertura completa do bairro Campestre."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Lajeado — em breve",

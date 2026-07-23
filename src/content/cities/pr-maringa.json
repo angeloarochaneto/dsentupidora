@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Zona 01",
+      "desc": "Atendimento residencial e comercial no bairro Zona 01."
+    },
+    {
+      "bairro": "Vila Morangueira",
+      "desc": "Cobertura completa do bairro Vila Morangueira."
+    },
+    {
+      "bairro": "Alvorada",
+      "desc": "Atendimento rápido e eficiente no bairro Alvorada."
+    },
+    {
+      "bairro": "Aclimação",
+      "desc": "Cobertura completa do bairro Aclimação."
+    },
+    {
+      "bairro": "Mandacaru",
+      "desc": "Atendimento residencial e comercial no bairro Mandacaru."
+    },
+    {
+      "bairro": "Vila Operária",
+      "desc": "Cobertura completa do bairro Vila Operária."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Maringá — em breve",

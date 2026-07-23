@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Boqueirão",
+      "desc": "Atendimento residencial e comercial no bairro Boqueirão."
+    },
+    {
+      "bairro": "Gonzaga",
+      "desc": "Cobertura completa do bairro Gonzaga."
+    },
+    {
+      "bairro": "José Menino",
+      "desc": "Atendimento rápido no bairro José Menino."
+    },
+    {
+      "bairro": "Ponta da Praia",
+      "desc": "Serviço especializado no bairro Ponta da Praia."
+    },
+    {
+      "bairro": "Aparecida",
+      "desc": "Cobertura completa do bairro Aparecida."
+    },
+    {
+      "bairro": "Embaré",
+      "desc": "Atendimento residencial e comercial no bairro Embaré."
+    },
+    {
+      "bairro": "Vila Belmiro",
+      "desc": "Atendimento rápido no bairro Vila Belmiro."
+    },
+    {
+      "bairro": "Encruzilhada",
+      "desc": "Cobertura completa no bairro Encruzilhada."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Santos — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Antônio Zanaga",
+      "desc": "Cobertura completa do bairro Antônio Zanaga."
+    },
+    {
+      "bairro": "Carioba",
+      "desc": "Serviço ágil e garantido no bairro Carioba."
+    },
+    {
+      "bairro": "Bosque da Saúde",
+      "desc": "Atendimento residencial e comercial no bairro Bosque da Saúde."
+    },
+    {
+      "bairro": "Campo Limpo",
+      "desc": "Cobertura completa do bairro Campo Limpo."
+    },
+    {
+      "bairro": "Boa Esperança",
+      "desc": "Atendimento rápido e especializado no bairro Boa Esperança."
+    },
+    {
+      "bairro": "Cariobinha",
+      "desc": "Cobertura completa do bairro Cariobinha."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Americana — em breve",

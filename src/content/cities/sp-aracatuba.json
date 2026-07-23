@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vila Mendonça",
+      "desc": "Cobertura completa do bairro Vila Mendonça."
+    },
+    {
+      "bairro": "Jardim Higienópolis",
+      "desc": "Serviço ágil e garantido no bairro Jardim Higienópolis."
+    },
+    {
+      "bairro": "Alto da Boa Vista",
+      "desc": "Atendimento residencial e comercial no bairro Alto da Boa Vista."
+    },
+    {
+      "bairro": "Aviação",
+      "desc": "Cobertura completa do bairro Aviação."
+    },
+    {
+      "bairro": "Alvorada",
+      "desc": "Atendimento rápido e especializado no bairro Alvorada."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Araçatuba — em breve",

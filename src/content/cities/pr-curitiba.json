@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Batel",
+      "desc": "Cobertura completa do bairro Batel."
+    },
+    {
+      "bairro": "Água Verde",
+      "desc": "Atendimento rápido e eficiente no bairro Água Verde."
+    },
+    {
+      "bairro": "Bigorrilho",
+      "desc": "Cobertura completa do bairro Bigorrilho."
+    },
+    {
+      "bairro": "Portão",
+      "desc": "Atendimento residencial e comercial no bairro Portão."
+    },
+    {
+      "bairro": "Santa Felicidade",
+      "desc": "Cobertura completa do bairro Santa Felicidade."
+    },
+    {
+      "bairro": "Boqueirão",
+      "desc": "Atendimento rápido e eficiente no bairro Boqueirão."
+    },
+    {
+      "bairro": "Cajuru",
+      "desc": "Cobertura completa do bairro Cajuru."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Curitiba — em breve",

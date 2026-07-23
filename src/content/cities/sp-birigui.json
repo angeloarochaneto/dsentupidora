@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vila Guarujá",
+      "desc": "Cobertura completa do bairro Vila Guarujá."
+    },
+    {
+      "bairro": "Jardim Costa Rica",
+      "desc": "Serviço ágil e garantido no bairro Jardim Costa Rica."
+    },
+    {
+      "bairro": "Jandaia",
+      "desc": "Atendimento residencial e comercial no bairro Jandaia."
+    },
+    {
+      "bairro": "Vila Guanabara",
+      "desc": "Cobertura completa do bairro Vila Guanabara."
+    },
+    {
+      "bairro": "Cidade Jardim",
+      "desc": "Atendimento rápido e especializado no bairro Cidade Jardim."
+    },
+    {
+      "bairro": "São Conrado",
+      "desc": "Cobertura completa do bairro São Conrado."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Birigui — em breve",

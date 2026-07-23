@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vista Alegre",
+      "desc": "Cobertura completa do bairro Vista Alegre."
+    },
+    {
+      "bairro": "Vila Nova",
+      "desc": "Atendimento rápido e eficiente no bairro Vila Nova."
+    },
+    {
+      "bairro": "Roselândia",
+      "desc": "Cobertura completa do bairro Roselândia."
+    },
+    {
+      "bairro": "Santa Clara",
+      "desc": "Atendimento residencial e comercial no bairro Santa Clara."
+    },
+    {
+      "bairro": "Floriano",
+      "desc": "Cobertura completa do bairro Floriano."
+    },
+    {
+      "bairro": "Rialto",
+      "desc": "Atendimento rápido e eficiente no bairro Rialto."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Barra Mansa — em breve",

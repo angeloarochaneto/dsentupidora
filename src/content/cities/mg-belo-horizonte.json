@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Savassi",
+      "desc": "Cobertura completa do bairro Savassi."
+    },
+    {
+      "bairro": "Lourdes",
+      "desc": "Atendimento residencial e comercial no bairro Lourdes."
+    },
+    {
+      "bairro": "Funcionários",
+      "desc": "Cobertura completa do bairro Funcionários."
+    },
+    {
+      "bairro": "Santo Agostinho",
+      "desc": "Atendimento residencial e comercial no bairro Santo Agostinho."
+    },
+    {
+      "bairro": "Pampulha",
+      "desc": "Cobertura completa do bairro Pampulha."
+    },
+    {
+      "bairro": "Buritis",
+      "desc": "Atendimento residencial e comercial no bairro Buritis."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Belo Horizonte — em breve",

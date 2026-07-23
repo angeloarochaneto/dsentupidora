@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Moema",
+      "desc": "Atendimento residencial e comercial no bairro Moema."
+    },
+    {
+      "bairro": "Pinheiros",
+      "desc": "Cobertura completa do bairro Pinheiros."
+    },
+    {
+      "bairro": "Vila Mariana",
+      "desc": "Atendimento rápido no bairro Vila Mariana."
+    },
+    {
+      "bairro": "Tatuapé",
+      "desc": "Serviço especializado no bairro Tatuapé."
+    },
+    {
+      "bairro": "Santana",
+      "desc": "Cobertura completa do bairro Santana."
+    },
+    {
+      "bairro": "Mooca",
+      "desc": "Atendimento residencial e comercial no bairro Mooca."
+    },
+    {
+      "bairro": "Vila Madalena",
+      "desc": "Atendimento rápido no bairro Vila Madalena."
+    },
+    {
+      "bairro": "Itaquera",
+      "desc": "Cobertura completa no bairro Itaquera."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Paulo — em breve",

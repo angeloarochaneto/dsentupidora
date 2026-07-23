@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Tambaú",
+      "desc": "Atendimento residencial e comercial no bairro Tambaú."
+    },
+    {
+      "bairro": "Manaíra",
+      "desc": "Cobertura completa do bairro Manaíra."
+    },
+    {
+      "bairro": "Bessa",
+      "desc": "Atendimento rápido e eficiente no bairro Bessa."
+    },
+    {
+      "bairro": "Cabo Branco",
+      "desc": "Cobertura completa do bairro Cabo Branco."
+    },
+    {
+      "bairro": "Jaguaribe",
+      "desc": "Atendimento residencial e comercial no bairro Jaguaribe."
+    },
+    {
+      "bairro": "Miramar",
+      "desc": "Cobertura completa do bairro Miramar."
+    },
+    {
+      "bairro": "Tambiá",
+      "desc": "Atendimento rápido e eficiente no bairro Tambiá."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em João Pessoa — em breve",

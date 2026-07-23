@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Boa Viagem",
+      "desc": "Atendimento residencial e comercial no bairro Boa Viagem."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Cobertura completa do bairro Boa Vista."
+    },
+    {
+      "bairro": "Casa Forte",
+      "desc": "Atendimento rápido e eficiente no bairro Casa Forte."
+    },
+    {
+      "bairro": "Espinheiro",
+      "desc": "Cobertura completa do bairro Espinheiro."
+    },
+    {
+      "bairro": "Graças",
+      "desc": "Atendimento residencial e comercial no bairro Graças."
+    },
+    {
+      "bairro": "Madalena",
+      "desc": "Cobertura completa do bairro Madalena."
+    },
+    {
+      "bairro": "Pina",
+      "desc": "Atendimento rápido e eficiente no bairro Pina."
+    },
+    {
+      "bairro": "Afogados",
+      "desc": "Cobertura completa do bairro Afogados."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Recife — em breve",

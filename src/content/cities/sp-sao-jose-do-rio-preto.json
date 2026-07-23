@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Vila Toninho",
+      "desc": "Cobertura completa do bairro Vila Toninho."
+    },
+    {
+      "bairro": "Boa Vista",
+      "desc": "Atendimento rápido no bairro Boa Vista."
+    },
+    {
+      "bairro": "Vila Redentora",
+      "desc": "Serviço especializado no bairro Vila Redentora."
+    },
+    {
+      "bairro": "Jardim Tarraf",
+      "desc": "Cobertura completa do bairro Jardim Tarraf."
+    },
+    {
+      "bairro": "Eldorado",
+      "desc": "Atendimento residencial e comercial no bairro Eldorado."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São José do Rio Preto — em breve",

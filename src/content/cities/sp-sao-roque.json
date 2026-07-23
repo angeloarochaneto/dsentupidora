@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Carmo",
+      "desc": "Cobertura completa do bairro Carmo."
+    },
+    {
+      "bairro": "Taboão",
+      "desc": "Atendimento rápido no bairro Taboão."
+    },
+    {
+      "bairro": "São João Novo",
+      "desc": "Serviço especializado no bairro São João Novo."
+    },
+    {
+      "bairro": "Alto da Serra",
+      "desc": "Cobertura completa do bairro Alto da Serra."
+    },
+    {
+      "bairro": "Cascavel",
+      "desc": "Atendimento residencial e comercial no bairro Cascavel."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Roque — em breve",

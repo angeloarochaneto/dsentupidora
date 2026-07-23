@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Manguinhos",
+      "desc": "Atendimento residencial e comercial no bairro Manguinhos."
+    },
+    {
+      "bairro": "Feu Rosa",
+      "desc": "Cobertura completa do bairro Feu Rosa."
+    },
+    {
+      "bairro": "Jardim Limoeiro",
+      "desc": "Atendimento residencial e comercial no bairro Jardim Limoeiro."
+    },
+    {
+      "bairro": "Novo Horizonte",
+      "desc": "Cobertura completa do bairro Novo Horizonte."
+    },
+    {
+      "bairro": "Planalto de Carapina",
+      "desc": "Atendimento residencial e comercial no bairro Planalto de Carapina."
+    },
+    {
+      "bairro": "São Diogo",
+      "desc": "Cobertura completa do bairro São Diogo."
+    },
+    {
+      "bairro": "Laranjeiras",
+      "desc": "Atendimento residencial e comercial no bairro Laranjeiras."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Serra — em breve",

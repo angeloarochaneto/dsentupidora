@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Alto dos Passos",
+      "desc": "Cobertura completa do bairro Alto dos Passos."
+    },
+    {
+      "bairro": "Granbery",
+      "desc": "Atendimento residencial e comercial no bairro Granbery."
+    },
+    {
+      "bairro": "São Mateus",
+      "desc": "Cobertura completa do bairro São Mateus."
+    },
+    {
+      "bairro": "Santa Helena",
+      "desc": "Atendimento residencial e comercial no bairro Santa Helena."
+    },
+    {
+      "bairro": "Teixeiras",
+      "desc": "Cobertura completa do bairro Teixeiras."
+    },
+    {
+      "bairro": "Bom Pastor",
+      "desc": "Atendimento residencial e comercial no bairro Bom Pastor."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Juiz de Fora — em breve",

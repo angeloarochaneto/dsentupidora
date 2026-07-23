@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Cidade Alta",
+      "desc": "Cobertura completa do bairro Cidade Alta."
+    },
+    {
+      "bairro": "Baianão",
+      "desc": "Atendimento residencial e comercial no bairro Baianão."
+    },
+    {
+      "bairro": "Trancoso",
+      "desc": "Cobertura completa do bairro Trancoso."
+    },
+    {
+      "bairro": "Arraial d'Ajuda",
+      "desc": "Atendimento residencial e comercial no bairro Arraial d'Ajuda."
+    },
+    {
+      "bairro": "Taperapuã",
+      "desc": "Cobertura completa do bairro Taperapuã."
+    },
+    {
+      "bairro": "Cambolo",
+      "desc": "Atendimento residencial e comercial no bairro Cambolo."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Porto Seguro — em breve",

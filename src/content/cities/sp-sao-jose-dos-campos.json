@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Aquarius",
+      "desc": "Cobertura completa do bairro Jardim Aquarius."
+    },
+    {
+      "bairro": "Jardim Satélite",
+      "desc": "Atendimento rápido no bairro Jardim Satélite."
+    },
+    {
+      "bairro": "Bosque dos Eucaliptos",
+      "desc": "Serviço especializado no bairro Bosque dos Eucaliptos."
+    },
+    {
+      "bairro": "Urbanova",
+      "desc": "Cobertura completa do bairro Urbanova."
+    },
+    {
+      "bairro": "Cidade Vista Verde",
+      "desc": "Atendimento residencial e comercial no bairro Cidade Vista Verde."
+    },
+    {
+      "bairro": "Parque Interlagos",
+      "desc": "Atendimento rápido no bairro Parque Interlagos."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São José dos Campos — em breve",

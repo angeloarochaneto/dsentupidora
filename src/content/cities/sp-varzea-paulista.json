@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Jardim Paulista",
+      "desc": "Cobertura completa do bairro Jardim Paulista."
+    },
+    {
+      "bairro": "Jardim América",
+      "desc": "Atendimento rápido no bairro Jardim América."
+    },
+    {
+      "bairro": "Vila Real",
+      "desc": "Serviço especializado no bairro Vila Real."
+    },
+    {
+      "bairro": "Vila Tupi",
+      "desc": "Cobertura completa do bairro Vila Tupi."
+    },
+    {
+      "bairro": "Vila Marajó",
+      "desc": "Atendimento residencial e comercial no bairro Vila Marajó."
+    },
+    {
+      "bairro": "Jardim Bela Vista",
+      "desc": "Atendimento rápido no bairro Jardim Bela Vista."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Várzea Paulista — em breve",

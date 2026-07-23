@@ -100,7 +100,28 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Horto",
+      "desc": "Cobertura completa do bairro Horto."
+    },
+    {
+      "bairro": "Jóquei Clube",
+      "desc": "Atendimento rápido e eficiente no bairro Jóquei Clube."
+    },
+    {
+      "bairro": "Parque Guarus",
+      "desc": "Cobertura completa do bairro Parque Guarus."
+    },
+    {
+      "bairro": "Prazeres",
+      "desc": "Atendimento residencial e comercial no bairro Prazeres."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campos dos Goytacazes — em breve",

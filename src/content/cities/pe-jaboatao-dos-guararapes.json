@@ -100,7 +100,32 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Candeias",
+      "desc": "Atendimento residencial e comercial no bairro Candeias."
+    },
+    {
+      "bairro": "Piedade",
+      "desc": "Cobertura completa do bairro Piedade."
+    },
+    {
+      "bairro": "Barra de Jangada",
+      "desc": "Atendimento rápido e eficiente no bairro Barra de Jangada."
+    },
+    {
+      "bairro": "Prazeres",
+      "desc": "Cobertura completa do bairro Prazeres."
+    },
+    {
+      "bairro": "Cajueiro Seco",
+      "desc": "Atendimento residencial e comercial no bairro Cajueiro Seco."
+    },
+    {
+      "bairro": "Muribeca",
+      "desc": "Cobertura completa do bairro Muribeca."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Jaboatão dos Guararapes — em breve",

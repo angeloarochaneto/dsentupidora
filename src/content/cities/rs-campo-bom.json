@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Rio Branco",
+      "desc": "Cobertura completa do bairro Rio Branco."
+    },
+    {
+      "bairro": "Paulista",
+      "desc": "Serviço ágil e garantido no bairro Paulista."
+    },
+    {
+      "bairro": "Bela Vista",
+      "desc": "Atendimento residencial e comercial no bairro Bela Vista."
+    },
+    {
+      "bairro": "Metzler",
+      "desc": "Cobertura completa do bairro Metzler."
+    },
+    {
+      "bairro": "Ipiranga",
+      "desc": "Atendimento rápido e especializado no bairro Ipiranga."
+    },
+    {
+      "bairro": "Santo Antônio",
+      "desc": "Cobertura completa do bairro Santo Antônio."
+    },
+    {
+      "bairro": "Imigrante",
+      "desc": "Atendimento residencial e comercial no bairro Imigrante."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Campo Bom — em breve",

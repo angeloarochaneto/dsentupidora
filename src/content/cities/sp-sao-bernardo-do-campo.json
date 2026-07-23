@@ -100,7 +100,40 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Centro",
+      "desc": "Atendimento residencial e comercial no bairro Centro."
+    },
+    {
+      "bairro": "Rudge Ramos",
+      "desc": "Cobertura completa do bairro Rudge Ramos."
+    },
+    {
+      "bairro": "Anchieta",
+      "desc": "Atendimento rápido no bairro Anchieta."
+    },
+    {
+      "bairro": "Assunção",
+      "desc": "Serviço especializado no bairro Assunção."
+    },
+    {
+      "bairro": "Baeta Neves",
+      "desc": "Cobertura completa do bairro Baeta Neves."
+    },
+    {
+      "bairro": "Demarchi",
+      "desc": "Atendimento residencial e comercial no bairro Demarchi."
+    },
+    {
+      "bairro": "Taboão",
+      "desc": "Atendimento rápido no bairro Taboão."
+    },
+    {
+      "bairro": "Riacho Grande",
+      "desc": "Cobertura completa no bairro Riacho Grande."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em São Bernardo do Campo — em breve",

@@ -100,7 +100,36 @@
       "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado."
     }
   ],
-  "neighborhoods": [],
+  "neighborhoods": [
+    {
+      "bairro": "Nazaré",
+      "desc": "Atendimento residencial e comercial no bairro Nazaré."
+    },
+    {
+      "bairro": "Batista Campos",
+      "desc": "Cobertura completa do bairro Batista Campos."
+    },
+    {
+      "bairro": "Cidade Velha",
+      "desc": "Atendimento rápido e eficiente no bairro Cidade Velha."
+    },
+    {
+      "bairro": "Umarizal",
+      "desc": "Cobertura completa do bairro Umarizal."
+    },
+    {
+      "bairro": "Marco",
+      "desc": "Atendimento residencial e comercial no bairro Marco."
+    },
+    {
+      "bairro": "Reduto",
+      "desc": "Cobertura completa do bairro Reduto."
+    },
+    {
+      "bairro": "São Brás",
+      "desc": "Atendimento rápido e eficiente no bairro São Brás."
+    }
+  ],
   "testimonials": [],
   "partner": {
     "name": "Parceiro local em Belém — em breve",
