@@ -58,14 +58,13 @@
     { "titulo": "Garantia no serviço", "desc": "Garantia por escrito em todos os desentupimentos realizados." },
     { "titulo": "Pagamento facilitado", "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado." }
   ],
-  "areas": [],
-  "otherNeighborhoods": [
-    "Vila Assunção",
-    "Jardim",
-    "Campestre",
-    "Vila Guiomar",
-    "Utinga",
-    "Casa Branca"
+  "neighborhoods": [
+    { "bairro": "Vila Assunção", "desc": "Atendimento residencial na Vila Assunção." },
+    { "bairro": "Jardim", "desc": "Cobertura no bairro Jardim." },
+    { "bairro": "Campestre", "desc": "Atendimento no Campestre e arredores." },
+    { "bairro": "Vila Guiomar", "desc": "Cobertura residencial e comercial na Vila Guiomar." },
+    { "bairro": "Utinga", "desc": "Atendimento no Utinga." },
+    { "bairro": "Casa Branca", "desc": "Cobertura residencial na Casa Branca." }
   ],
   "testimonials": [
     {

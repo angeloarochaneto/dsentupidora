@@ -1,85 +1,37 @@
 ---
-interface Area {
+interface Neighborhood {
   bairro: string;
-  tempo: string;
-  slug: string;
   desc: string;
 }
 interface Props {
-  city: string;
-  areas: Area[];
-  otherNeighborhoods?: string[];
-  slugUf: string;
-  slugCity: string;
+  neighborhoods: Neighborhood[];
 }
-const { city, areas, otherNeighborhoods = [], slugUf, slugCity } = Astro.props;
-
-const showSection = areas.length > 0 || otherNeighborhoods.length > 0;
+const { neighborhoods } = Astro.props;
 ---
 
-{showSection && (
+{neighborhoods.length > 0 && (
   <section class="section section--panel" id="areas">
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">Áreas atendidas</span>
         <h2>Onde a gente chega</h2>
       </div>
-
-      {areas.length > 0 && (
-        <div class="grid grid-3">
-          {areas.map((a) => (
-            <a href={`/${slugUf}/${slugCity}/${a.slug}/`} class="card area-card">
-              <h3>{a.bairro}</h3>
-              <span class="area-time">Chegada média: {a.tempo}</span>
-              <p>{a.desc}</p>
-              <span class="area-link">Ver detalhes →</span>
-            </a>
-          ))}
-        </div>
-      )}
-
-      {otherNeighborhoods.length > 0 && (
-        <p class="other-neighborhoods">
-          Atendemos {city} inteira, incluindo os bairros {otherNeighborhoods.join(', ')} e região.
-        </p>
-      )}
+      <div class="grid grid-3">
+        {neighborhoods.map((n) => (
+          <div class="card area-card">
+            <h3>{n.bairro}</h3>
+            <p>{n.desc}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 )}
 
 <style>
-  .area-card {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    color: var(--ink);
-    transition: box-shadow 0.15s ease, transform 0.15s ease;
-  }
-  .area-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
-  }
-  .area-time {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--amber-deep);
-  }
   .area-card p {
     color: var(--muted);
     font-size: 0.9rem;
-    margin: 0 0 6px;
-  }
-  .area-link {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 0.85rem;
-    color: var(--navy);
-  }
-  .other-neighborhoods {
-    max-width: 720px;
-    margin: 32px auto 0;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.95rem;
+    margin: 0;
   }
 </style>

@@ -93,14 +93,13 @@ const faqSchema = buildFaqSchema(urgencyFaqs);
     leadsterEmbedId={data.leadsterEmbedId}
     kpis={data.kpis}
     heroImage={data.heroImage}
-    areas={data.areas}
-    otherNeighborhoods={data.otherNeighborhoods}
+    neighborhoods={data.neighborhoods}
   />
   <UrgencyInfo city={data.city} keyword={data.keyword} phoneDisplay={data.phone.display} faqs={urgencyFaqs} />
   <Services services={data.services} />
   <Differentials differentials={data.differentials} />
   <Steps keyword={data.keyword} />
-  <Areas city={data.city} areas={data.areas} otherNeighborhoods={data.otherNeighborhoods} slugUf={data.slugUf} slugCity={data.slugCity} />
+  <Areas neighborhoods={data.neighborhoods} />
   <Testimonials testimonials={data.testimonials} />
   <FinalCTA
     city={data.city}
@@ -117,9 +116,7 @@ const faqSchema = buildFaqSchema(urgencyFaqs);
     mapEmbedUrl={data.partner.mapEmbedUrl}
     phoneDisplay={data.phone.display}
     services={data.services}
-    areas={data.areas}
-    slugUf={data.slugUf}
-    slugCity={data.slugCity}
+    neighborhoods={data.neighborhoods}
     city={data.city}
   />
   <StickyMobileCta

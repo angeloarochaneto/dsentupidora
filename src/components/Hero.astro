@@ -14,8 +14,7 @@ interface Props {
   leadsterEmbedId: string;
   kpis: { num: string; lbl: string }[];
   heroImage?: { url: string; alt: string };
-  areas?: { bairro: string }[];
-  otherNeighborhoods?: string[];
+  neighborhoods?: { bairro: string }[];
 }
 
 const {
@@ -31,11 +30,10 @@ const {
   leadsterEmbedId,
   kpis,
   heroImage,
-  areas = [],
-  otherNeighborhoods = [],
+  neighborhoods = [],
 } = Astro.props;
 
-const neighborhoodNames = [...areas.map((a) => a.bairro), ...otherNeighborhoods];
+const neighborhoodNames = neighborhoods.map((n) => n.bairro);
 
 const image = heroImage ?? { url: '/images/hero-placeholder.jpg', alt: `Equipe de ${keyword} atendendo em ${city}` };
 

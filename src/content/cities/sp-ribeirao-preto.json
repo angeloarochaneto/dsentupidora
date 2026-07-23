@@ -62,27 +62,15 @@
     { "titulo": "Garantia no serviço", "desc": "Garantia por escrito em todos os desentupimentos realizados." },
     { "titulo": "Pagamento facilitado", "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado." }
   ],
-  "areas": [
-    {
-      "bairro": "Centro",
-      "tempo": "20 min",
-      "slug": "centro",
-      "desc": "Atendimento rápido para residências e comércios no Centro de Ribeirão Preto."
-    },
-    {
-      "bairro": "Ribeirânia",
-      "tempo": "35 min",
-      "slug": "ribeirania",
-      "desc": "Cobertura completa do bairro Ribeirânia, incluindo condomínios e casas."
-    }
-  ],
-  "otherNeighborhoods": [
-    "Jardim Sumaré",
-    "Jardim Botânico",
-    "Alto da Boa Vista",
-    "Jardim Irajá",
-    "Ribeirão Verde",
-    "Campos Elíseos"
+  "neighborhoods": [
+    { "bairro": "Centro", "desc": "Atendimento rápido para residências e comércios no Centro de Ribeirão Preto." },
+    { "bairro": "Ribeirânia", "desc": "Cobertura completa do bairro Ribeirânia, incluindo condomínios e casas." },
+    { "bairro": "Jardim Sumaré", "desc": "Atendimento residencial no Jardim Sumaré." },
+    { "bairro": "Jardim Botânico", "desc": "Cobertura de casas e condomínios no Jardim Botânico." },
+    { "bairro": "Alto da Boa Vista", "desc": "Atendimento no Alto da Boa Vista e arredores." },
+    { "bairro": "Jardim Irajá", "desc": "Cobertura residencial no Jardim Irajá." },
+    { "bairro": "Ribeirão Verde", "desc": "Atendimento no Ribeirão Verde." },
+    { "bairro": "Campos Elíseos", "desc": "Cobertura residencial e comercial nos Campos Elíseos." }
   ],
   "testimonials": [
     {

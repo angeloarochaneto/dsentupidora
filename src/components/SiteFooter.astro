@@ -2,9 +2,8 @@
 interface Service {
   nome: string;
 }
-interface Area {
+interface Neighborhood {
   bairro: string;
-  slug: string;
 }
 interface Props {
   partnerName: string;
@@ -12,13 +11,11 @@ interface Props {
   mapEmbedUrl: string;
   phoneDisplay: string;
   services: Service[];
-  areas: Area[];
-  slugUf: string;
-  slugCity: string;
+  neighborhoods: Neighborhood[];
   city: string;
 }
 
-const { partnerName, partnerAddress, mapEmbedUrl, phoneDisplay, services, areas, slugUf, slugCity, city } = Astro.props;
+const { partnerName, partnerAddress, mapEmbedUrl, phoneDisplay, services, neighborhoods, city } = Astro.props;
 const year = new Date().getFullYear();
 ---
 
@@ -52,12 +49,12 @@ const year = new Date().getFullYear();
       </ul>
     </div>
 
-    {areas.length > 0 && (
+    {neighborhoods.length > 0 && (
       <div>
         <p class="footer-col-title">Áreas em {city}</p>
         <ul>
-          {areas.map((a) => (
-            <li><a href={`/${slugUf}/${slugCity}/${a.slug}/`}>{a.bairro}</a></li>
+          {neighborhoods.map((n) => (
+            <li>{n.bairro}</li>
           ))}
         </ul>
       </div>
