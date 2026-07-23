@@ -47,10 +47,10 @@
       "nome": "Desentupimento de esgoto",
       "desc": "Localização e desobstrução de redes de esgoto residenciais com equipamento especializado.",
       "preco": "",
-      "img": "/images/servico-esgoto.jpg",
-      "imgAlt": "Desobstrução de rede de esgoto residencial com equipamento especializado",
-      "imgWidth": 600,
-      "imgHeight": 400
+      "img": "/images/servico-esgoto.webp",
+      "imgAlt": "Profissional desentupindo rede de esgoto residencial com máquina de limpeza em poço de visita",
+      "imgWidth": 800,
+      "imgHeight": 447
     },
     {
       "nome": "Limpeza de caixa de gordura",
