@@ -35,14 +35,20 @@ const image = heroImage ?? { url: '/images/hero-placeholder.jpg', alt: `Equipe d
 
 const kw = capitalize(keyword);
 
-let h1 = `Entupiu? A gente aciona um parceiro perto de você em ${city}.`;
+let h1Prefix = 'Entupiu? A gente aciona um parceiro perto de você em ';
+let h1Location = city;
+let h1Suffix = '.';
 let lead = `Chame agora e um parceiro local especializado chega até você, com orçamento sem compromisso.`;
 
 if (mode === 'urgency') {
-  h1 = `${kw} 24h em ${city}: atendimento agora, dia e noite.`;
+  h1Prefix = `${kw} 24h em `;
+  h1Location = city;
+  h1Suffix = ': atendimento agora, dia e noite.';
   lead = `Problema não espera. Plantão todos os dias, inclusive fins de semana e feriados, em ${city}.`;
 } else if (mode === 'bairro' && bairro) {
-  h1 = `${kw} no ${bairro} de ${city}.`;
+  h1Prefix = `${kw} no `;
+  h1Location = bairro;
+  h1Suffix = ` de ${city}.`;
   lead = `Atendimento local rápido no ${bairro}, com equipe que conhece a região.`;
 }
 
@@ -53,7 +59,7 @@ const checks = ['Orçamento sem compromisso', 'Sem quebra-quebra', 'Equipe próp
   <div class="container hero-inner">
     <div class="hero-copy">
       <span class="eyebrow">Plantão 24h</span>
-      <h1>{h1}</h1>
+      <h1>{h1Prefix}<em>{h1Location}</em>{h1Suffix}</h1>
       <p class="hero-lead">{lead}</p>
 
       <div class="hero-ctas">
@@ -113,6 +119,11 @@ const checks = ['Orçamento sem compromisso', 'Sem quebra-quebra', 'Equipe próp
     color: #fff;
     font-size: clamp(2rem, 4vw, 2.8rem);
     margin-bottom: 18px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 800;
+    color: var(--amber);
   }
   .hero-lead {
     color: rgba(255, 255, 255, 0.8);

@@ -59,6 +59,14 @@
     { "titulo": "Pagamento facilitado", "desc": "Aceita Pix, cartão e dinheiro, com nota fiscal quando solicitado." }
   ],
   "areas": [],
+  "otherNeighborhoods": [
+    "Vila Assunção",
+    "Jardim",
+    "Campestre",
+    "Vila Guiomar",
+    "Utinga",
+    "Casa Branca"
+  ],
   "testimonials": [
     {
       "texto": "Chegaram no horário combinado e resolveram rápido. Recomendo.",
