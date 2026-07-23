@@ -40,6 +40,18 @@ export interface PlumberSchemaInput {
   url: string;
 }
 
+export function buildFaqSchema(faqs: { q: string; a: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+}
+
 export function buildPlumberSchema(input: PlumberSchemaInput) {
   return {
     '@context': 'https://schema.org',

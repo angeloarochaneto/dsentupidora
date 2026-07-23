@@ -1,0 +1,93 @@
+---
+interface Props {
+  city: string;
+  keyword: string;
+  phoneDisplay: string;
+  faqs: { q: string; a: string }[];
+}
+const { city, keyword, phoneDisplay, faqs } = Astro.props;
+
+const tips = [
+  {
+    titulo: 'Feche o registro de água',
+    desc: 'Se o entupimento estiver causando transbordamento, feche o registro do ponto afetado até a equipe chegar — evita alagar outros ambientes.',
+  },
+  {
+    titulo: 'Não use o ambiente afetado',
+    desc: 'Evite descargas, chuveiro ou pia no local até a avaliação — usar o ponto entupido pode piorar o refluxo.',
+  },
+  {
+    titulo: 'Não jogue produtos químicos',
+    desc: 'Desentupidores químicos caseiros podem danificar a tubulação e dificultam o diagnóstico correto na visita.',
+  },
+];
+---
+
+<section class="section section--panel urgency-info">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Plantão 24h</span>
+      <h2>O que fazer até a equipe chegar</h2>
+    </div>
+    <div class="grid grid-3">
+      {tips.map((t) => (
+        <div class="card">
+          <h3>{t.titulo}</h3>
+          <p>{t.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="urgency-faq">
+      <h3>Perguntas sobre o atendimento de urgência em {city}</h3>
+      {faqs.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <p class="urgency-note">
+      Precisa de {keyword} agora em {city}? Ligue {phoneDisplay} — o plantão está de prontidão.
+    </p>
+  </div>
+</section>
+
+<style>
+  .urgency-info .card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .urgency-faq {
+    max-width: 720px;
+    margin: 48px auto 0;
+  }
+  .urgency-faq h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--line);
+    padding: 14px 0;
+  }
+  .faq-item summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+  }
+  .faq-item p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 10px 0 0;
+  }
+  .urgency-note {
+    text-align: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--navy);
+    margin: 32px 0 0;
+  }
+</style>
