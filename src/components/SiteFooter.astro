@@ -13,23 +13,27 @@ interface Props {
   services: Service[];
   neighborhoods: Neighborhood[];
   city: string;
+  uf: string;
 }
 
-const { partnerName, partnerAddress, mapEmbedUrl, phoneDisplay, services, neighborhoods, city } = Astro.props;
+const { partnerName, partnerAddress, mapEmbedUrl, phoneDisplay, services, neighborhoods, city, uf } = Astro.props;
 const year = new Date().getFullYear();
+
+// Sem endereço de parceiro confirmado ainda: mostra um mapa genérico da cidade
+// (sem afirmar um endereço específico) em vez de esconder o mapa inteiro.
+const mapSrc = mapEmbedUrl || `https://www.google.com/maps?q=${encodeURIComponent(`${city}, ${uf}, Brasil`)}&output=embed`;
+const mapTitle = mapEmbedUrl ? `Localização de ${partnerName}` : `Mapa de ${city} - ${uf}`;
 ---
 
 <footer class="site-footer">
-  {mapEmbedUrl && (
-    <div class="map-embed">
-      <iframe
-        src={mapEmbedUrl}
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        title={`Localização de ${partnerName}`}
-      ></iframe>
-    </div>
-  )}
+  <div class="map-embed">
+    <iframe
+      src={mapSrc}
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title={mapTitle}
+    ></iframe>
+  </div>
 
   <div class="container footer-grid">
     <div>
